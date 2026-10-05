@@ -1,0 +1,924 @@
+# Generated from locale/catalog.json.
+msgid ""
+msgstr "Project-Id-Version: WireGuardian\nContent-Type: text/plain; charset=UTF-8\nLanguage: it\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "\nHTTPS : un certificat local sera créé. Importez-le comme certificat de confiance\nou remplacez-le par un certificat de votre PKI. Aucun port HTTP public nécessaire."
+msgstr "\nHTTPS: verrà creato un certificato locale. Importalo come certificato attendibile\no sostituiscilo con un certificato della tua PKI. Non serve una porta HTTP pubblica."
+
+msgid "\nInstallation des dépendances, création des services, HTTPS privé et pare-feu.\nLes entrées non autorisées et le transfert hors VPN seront bloqués.\nAucune modification de l’adresse IP du serveur ni de la configuration SSH.\nAucun redémarrage automatique. L’inscription 2FA sera facultative dans la dashboard."
+msgstr "\nSaranno installati dipendenze, servizi, HTTPS privato e firewall.\nIngressi non autorizzati e inoltri fuori dai criteri VPN saranno bloccati.\nL’IP del server e la configurazione SSH non saranno modificati.\nNessun riavvio automatico. La 2FA sarà facoltativa nel pannello."
+
+msgid "\nInstallation terminée : https://{value0}\nImportez /etc/keyboarded/tls.crt sur vos postes d’administration.\nRedirigez uniquement UDP {value1} sur votre routeur.\nVérifiez un redémarrage et un client VPN avant mise en service.\n"
+msgstr "\nInstallazione completata: https://{value0}\nImporta /etc/keyboarded/tls.crt sui dispositivi di amministrazione.\nInoltra solo UDP {value1} sul router.\nVerifica un riavvio e un client VPN prima della messa in servizio.\n"
+
+msgid "\nRÉCAPITULATIF\n"
+msgstr "\nRIEPILOGO\n"
+
+msgid "\nWireGuardian · Keyboarded\nAssistant d’installation — serveur Debian dédié\n"
+msgstr "\nWireGuardian · Keyboarded\nInstallazione guidata — server Debian dedicato\n"
+
+msgid "1/4 — Réseau : les suggestions proviennent uniquement de ce serveur."
+msgstr "1/4 — Rete: i suggerimenti provengono solo da questo server."
+
+msgid "2/4 — Compte : aucun identifiant ni mot de passe prédéfini."
+msgstr "2/4 — Account: nessun nome utente o password predefinito."
+
+msgid "2FA"
+msgstr "2FA"
+
+msgid "2FA désactivée"
+msgstr "2FA disattivata"
+
+msgid "2FA réinitialisée"
+msgstr "2FA reimpostata"
+
+msgid "2FA réinitialisée. Cet utilisateur devra la configurer à nouveau."
+msgstr "2FA reimpostata. Questo utente dovrà configurarla di nuovo."
+
+msgid "3/4 — Maintenance : correctifs Debian et publications signées."
+msgstr "3/4 — Manutenzione: aggiornamenti Debian e versioni firmate."
+
+msgid "4/4 — Vérifiez : IP fixe ou réservation DHCP, accès console et serveur dédié."
+msgstr "4/4 — Verifica: IP statico o prenotazione DHCP, accesso alla console e server dedicato."
+
+msgid "ADMINISTRATION"
+msgstr "AMMINISTRAZIONE"
+
+msgid "Accès"
+msgstr "Accesso"
+
+msgid "Accès LAN & VPN"
+msgstr "Accesso LAN e VPN"
+
+msgid "Accès réservé aux administrateurs."
+msgstr "Solo per amministratori."
+
+msgid "Accès souhaité"
+msgstr "Accesso configurato"
+
+msgid "Accès utilisateur modifié"
+msgstr "Accesso utente modificato"
+
+msgid "Actif"
+msgstr "Attivo"
+
+msgid "Action"
+msgstr "Azione"
+
+msgid "Action inconnue"
+msgstr "Azione sconosciuta"
+
+msgid "Action invalide"
+msgstr "Azione non valida"
+
+msgid "Actions"
+msgstr "Azioni"
+
+msgid "Activer la 2FA"
+msgstr "Attiva 2FA"
+
+msgid "Activer les mises à jour de sécurité Debian automatiques ? y/n"
+msgstr "Attivare gli aggiornamenti automatici di sicurezza Debian? y/n"
+
+msgid "Actualiser le suivi"
+msgstr "Aggiorna stato"
+
+msgid "Administrateur"
+msgstr "Amministratore"
+
+msgid "Administration"
+msgstr "Amministrazione"
+
+msgid "Administration WireGuard"
+msgstr "Amministrazione WireGuard"
+
+msgid "Administration privée"
+msgstr "Amministrazione privata"
+
+msgid "Adresse IP publique ou nom DNS"
+msgstr "Indirizzo IP pubblico o nome DNS"
+
+msgid "Adresse IPv4 fixe déjà configurée sur ce serveur"
+msgstr "Indirizzo IPv4 fisso già configurato sul server"
+
+msgid "Adresse VPN"
+msgstr "Indirizzo VPN"
+
+msgid "Adresse du serveur dans ce VPN"
+msgstr "Indirizzo del server nella VPN"
+
+msgid "Adresse d’administration absente de l’interface choisie. Configurez une IP fixe avant installation."
+msgstr "L’indirizzo di amministrazione non è sull’interfaccia scelta. Configura un IP fisso prima dell’installazione."
+
+msgid "Adresse publique"
+msgstr "Indirizzo pubblico"
+
+msgid "Ajouter un appareil"
+msgstr "Aggiungi dispositivo"
+
+msgid "Ajouter un appareil →"
+msgstr "Aggiungi dispositivo →"
+
+msgid "Ajoutez une vérification par application d’authentification à votre mot de passe."
+msgstr "Aggiungi una verifica tramite app di autenticazione alla password."
+
+msgid "Ajoutez votre premier appareil pour créer son profil WireGuard."
+msgstr "Aggiungi il primo dispositivo per creare il suo profilo WireGuard."
+
+msgid "Aller au contenu"
+msgstr "Vai al contenuto"
+
+msgid "AllowedIPs — section [Peer]"
+msgstr "AllowedIPs — sezione [Peer]"
+
+msgid "Appareil"
+msgstr "Dispositivo"
+
+msgid "Appareil créé"
+msgstr "Dispositivo creato"
+
+msgid "Appareil perdu ?"
+msgstr "Dispositivo smarrito?"
+
+msgid "Appareil supprimé"
+msgstr "Dispositivo eliminato"
+
+msgid "Appareils"
+msgstr "Dispositivi"
+
+msgid "Appareils configurés"
+msgstr "Dispositivi configurati"
+
+msgid "Appareils, accès et configuration réseau."
+msgstr "Dispositivi, accessi e configurazione di rete."
+
+msgid "Appliquer au serveur"
+msgstr "Applica al server"
+
+msgid "Appliquer les accès enregistrés ? Les appareils désactivés ou supprimés seront déconnectés."
+msgstr "Applicare gli accessi salvati? I dispositivi disattivati o eliminati saranno disconnessi."
+
+msgid "Appliquer les paramètres"
+msgstr "Applica impostazioni"
+
+msgid "Aucun appareil configuré."
+msgstr "Nessun dispositivo configurato."
+
+msgid "Aucun appareil."
+msgstr "Nessun dispositivo."
+
+msgid "Aucun résultat."
+msgstr "Nessun risultato."
+
+msgid "Aucune action enregistrée."
+msgstr "Nessuna attività registrata."
+
+msgid "Aucune donnée simulée n’est affichée."
+msgstr "Non vengono mostrati dati simulati."
+
+msgid "Aucune opération"
+msgstr "Nessuna operazione"
+
+msgid "Authentification à deux facteurs"
+msgstr "Autenticazione a due fattori"
+
+msgid "Autorisé"
+msgstr "Consentito"
+
+msgid "Ce compte ne peut pas être désactivé ici."
+msgstr "Questo account non può essere disattivato qui."
+
+msgid "Ces prérequis sont-ils assurés ? y/n"
+msgstr "Questi prerequisiti sono soddisfatti? y/n"
+
+msgid "Changements en attente."
+msgstr "Modifiche in attesa."
+
+msgid "Changer de langue"
+msgstr "Cambia lingua"
+
+msgid "Changer le mot de passe"
+msgstr "Modifica password"
+
+msgid "Changer votre mot de passe"
+msgstr "Cambia password"
+
+msgid "Chaque utilisateur active sa 2FA depuis les options de son propre compte."
+msgstr "Ogni utente attiva la 2FA nelle opzioni del proprio account."
+
+msgid "Choisissez un tunnel fractionné ou complet pour chaque appareil."
+msgstr "Scegli un tunnel diviso o completo per ogni dispositivo."
+
+msgid "Clé publique Ed25519 Base64 de l’éditeur : "
+msgstr "Chiave pubblica Ed25519 dell’editore in Base64: "
+
+msgid "Code de l’application"
+msgstr "Codice dell’app"
+
+msgid "Code de sécurité"
+msgstr "Codice di sicurezza"
+
+msgid "Code invalide, déjà utilisé ou temporairement bloqué."
+msgstr "Codice non valido, già utilizzato o temporaneamente bloccato."
+
+msgid "Complet"
+msgstr "Completo"
+
+msgid "Composant"
+msgstr "Componente"
+
+msgid "Compte créé. Gérez son mot de passe et sa 2FA dans ses options."
+msgstr "Account creato. Gestisci password e 2FA nelle sue opzioni."
+
+msgid "Compte créé. La double authentification est disponible dans Sécurité."
+msgstr "Account creato. L’autenticazione a due fattori è disponibile in Sicurezza."
+
+msgid "Compte protégé"
+msgstr "Account protetto"
+
+msgid "Comptes, 2FA, configuration, clé du serveur et appareils. L’archive est chiffrée avec votre phrase secrète."
+msgstr "Account, 2FA, configurazione, chiave del server e dispositivi. L’archivio è cifrato con la tua passphrase."
+
+msgid "Configuration WireGuard appliquée"
+msgstr "Configurazione WireGuard applicata"
+
+msgid "Configuration appliquée au tunnel WireGuard."
+msgstr "Configurazione applicata al tunnel WireGuard."
+
+msgid "Configuration du client"
+msgstr "Configurazione del client"
+
+msgid "Configuration du serveur"
+msgstr "Configurazione del server"
+
+msgid "Configurer manuellement"
+msgstr "Configura manualmente"
+
+msgid "Configurez un DNS dans Réseau avant de créer un profil en tunnel complet."
+msgstr "Configura un DNS in Rete prima di creare un profilo con tunnel completo."
+
+msgid "Configurez un DNS dans Réseau avant d’activer un tunnel complet."
+msgstr "Configura un DNS in Rete prima di attivare un tunnel completo."
+
+msgid "Confirmez la phrase"
+msgstr "Conferma la passphrase"
+
+msgid "Confirmez le mot de passe"
+msgstr "Conferma la password"
+
+msgid "Confirmez votre mot de passe"
+msgstr "Conferma la password"
+
+msgid "Confirmez votre mot de passe administrateur"
+msgstr "Conferma la password di amministratore"
+
+msgid "Confirmez votre mot de passe pour autoriser cette opération"
+msgstr "Conferma la tua password per autorizzare questa operazione"
+
+msgid "Confirmez votre mot de passe pour modifier le réseau."
+msgstr "Conferma la password per modificare la rete."
+
+msgid "Connectez-vous au serveur."
+msgstr "Accedi al server."
+
+msgid "Connexion"
+msgstr "Accesso"
+
+msgid "Connexion avec 2FA"
+msgstr "Accesso con 2FA"
+
+msgid "Connexion par mot de passe"
+msgstr "Accesso con password"
+
+msgid "Connexion refusée"
+msgstr "Accesso rifiutato"
+
+msgid "Connexion · WireGuardian"
+msgstr "Accesso · WireGuardian"
+
+msgid "Connexions et changements de configuration. Aucun secret dans le journal."
+msgstr "Accessi e modifiche alla configurazione. Nessun segreto nel registro."
+
+msgid "Connexions récentes"
+msgstr "Connessioni recenti"
+
+msgid "Conservez la clé privée déjà présente dans le client. Après modification, désactivez et réactivez le tunnel. Le serveur doit également recevoir les changements via « Appliquer au serveur »."
+msgstr "Conserva la chiave privata del client. Dopo la modifica, disattiva e riattiva il tunnel. Invia le modifiche anche al server con «Applica al server»."
+
+msgid "Conservez votre phrase hors du serveur : elle n’est pas enregistrée. Une sauvegarde complète remplace la précédente. La restauration s’effectue depuis la console avec restore.py."
+msgstr "Conserva la passphrase fuori dal server: non viene salvata. Un backup completo sostituisce il precedente. Il ripristino si esegue dalla console con restore.py."
+
+msgid "Conservé sur le client"
+msgstr "Mantenuto sul client"
+
+msgid "Contactez l’administrateur du serveur. La récupération s’effectue depuis sa console locale."
+msgstr "Contatta l’amministratore del server. Il recupero avviene dalla console locale."
+
+msgid "Création"
+msgstr "Creazione"
+
+msgid "Créer un utilisateur"
+msgstr "Crea utente"
+
+msgid "Créer une sauvegarde chiffrée"
+msgstr "Crea backup cifrato"
+
+msgid "Créez un profil et choisissez son mode de routage."
+msgstr "Crea un profilo e scegli la modalità di instradamento."
+
+msgid "Créez un profil pour connecter un ordinateur ou un téléphone à votre réseau."
+msgstr "Crea un profilo per collegare un computer o un telefono alla rete."
+
+msgid "DNS IPv4 des profils (vide = conserver le DNS client) : "
+msgstr "DNS IPv4 dei profili (vuoto = mantieni DNS del client): "
+
+msgid "DNS des profils clients"
+msgstr "DNS dei profili client"
+
+msgid "DNS du profil"
+msgstr "DNS del profilo"
+
+msgid "DNS — section [Interface]"
+msgstr "DNS — sezione [Interface]"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Demande transmise. Actualisez le suivi pour connaître le résultat ; une seule opération peut s’exécuter à la fois."
+msgstr "Richiesta inviata. Aggiorna lo stato per vedere il risultato; può essere eseguita una sola operazione alla volta."
+
+msgid "Dernière connexion"
+msgstr "Ultimo accesso"
+
+msgid "Dernière opération :"
+msgstr "Ultima operazione:"
+
+msgid "Dernières actions"
+msgstr "Attività recenti"
+
+msgid "Des accès personnels, protégés à chaque connexion."
+msgstr "Impostazioni di sicurezza dell’account."
+
+msgid "Des comptes individuels avec une double authentification facultative."
+msgstr "Account individuali con autenticazione a due fattori facoltativa."
+
+msgid "Double authentification désactivée."
+msgstr "Autenticazione a due fattori disattivata."
+
+msgid "Durée des sessions"
+msgstr "Durata delle sessioni"
+
+msgid "Déconnexion après 30 minutes d’inactivité. Nouvelle authentification après 8 heures au maximum."
+msgstr "Disconnessione dopo 30 minuti di inattività. Nuova autenticazione dopo un massimo di 8 ore."
+
+msgid "Désactiver"
+msgstr "Disattiva"
+
+msgid "Désactiver la 2FA"
+msgstr "Disattiva 2FA"
+
+msgid "Désactivé"
+msgstr "Disattivato"
+
+msgid "Désactivé : tunnel fractionné, Internet reste direct. Activé : IPv4 via le VPN, IPv6 bloqué dans le tunnel pour éviter une fuite."
+msgstr "Disattivato: tunnel diviso, Internet diretto. Attivato: IPv4 tramite VPN, IPv6 bloccato nel tunnel per evitare fughe."
+
+msgid "Détail"
+msgstr "Dettagli"
+
+msgid "En cours"
+msgstr "In corso"
+
+msgid "En service"
+msgstr "In servizio"
+
+msgid "Endpoint — section [Peer]"
+msgstr "Endpoint — sezione [Peer]"
+
+msgid "Enregistrer"
+msgstr "Salva"
+
+msgid "Enregistrer ce changement d’accès ? Il faudra ensuite l’appliquer au serveur."
+msgstr "Salvare questa modifica di accesso? Dovrai poi applicarla al server."
+
+msgid "Essayez un autre nom."
+msgstr "Prova un altro nome."
+
+msgid "Fractionné"
+msgstr "Diviso"
+
+msgid "GESTION"
+msgstr "GESTIONE"
+
+msgid "Gérer et appliquer les accès →"
+msgstr "Gestisci e applica gli accessi →"
+
+msgid "Handshake de moins de 3 minutes"
+msgstr "Handshake negli ultimi 3 minuti"
+
+msgid "IPv4 traverse le serveur. La route IPv6 est dirigée vers le tunnel et bloquée, afin de ne pas sortir directement par IPv6."
+msgstr "IPv4 passa dal server. IPv6 viene instradato nel tunnel e bloccato per evitare traffico IPv6 diretto."
+
+msgid "Identifiants incorrects."
+msgstr "Credenziali errate."
+
+msgid "Importez ce fichier dans l’application WireGuard de votre appareil."
+msgstr "Importa questo file nell’app WireGuard del dispositivo."
+
+msgid "Inconnu"
+msgstr "Sconosciuto"
+
+msgid "Indicateurs"
+msgstr "Indicatori"
+
+msgid "Indiquez entre 1 et 16 réseaux IPv4 valides."
+msgstr "Inserisci da 1 a 16 reti IPv4 valide."
+
+msgid "Indiquez une adresse IPv4 ou un nom DNS valide."
+msgstr "Inserisci un indirizzo IPv4 o un nome DNS valido."
+
+msgid "Indisponible"
+msgstr "Non disponibile"
+
+msgid "Init {value0} non pris en charge : systemd, SysV ou runit requis."
+msgstr "Init {value0} non supportato: serve systemd, SysV o runit."
+
+msgid "Installation annulée."
+msgstr "Installazione annullata."
+
+msgid "Installation arrêtée : {value0}. Consultez la console ; aucun nettoyage destructif automatique."
+msgstr "Installazione interrotta: {value0}. Consulta la console; nessuna pulizia distruttiva automatica."
+
+msgid "Installation existante détectée. Aucun écrasement : utilisez la maintenance ou la restauration."
+msgstr "Installazione esistente rilevata. Nessuna sovrascrittura: usa manutenzione o ripristino."
+
+msgid "Installation à lancer en root sur Debian/antiX."
+msgstr "Esegui l’installazione come root su Debian/antiX."
+
+msgid "Interface réseau de sortie"
+msgstr "Interfaccia di rete in uscita"
+
+msgid "Interface réseau de sortie (ip -br link)"
+msgstr "Interfaccia di rete in uscita (ip -br link)"
+
+msgid "Jamais"
+msgstr "Mai"
+
+msgid "Journal d’activité"
+msgstr "Registro attività"
+
+msgid "Keyboarded · Logiciel libre"
+msgstr "Keyboarded · Software libero"
+
+msgid "La configuration enregistrée diffère de la dernière version appliquée."
+msgstr "La configurazione salvata è diversa dall’ultima versione applicata."
+
+msgid "La double authentification est disponible dans les paramètres du compte."
+msgstr "L’autenticazione a due fattori è disponibile nelle impostazioni dell’account."
+
+msgid "La phrase de sauvegarde doit contenir 14 caractères minimum et les deux saisies doivent correspondre."
+msgstr "La passphrase del backup deve contenere almeno 14 caratteri e le due voci devono coincidere."
+
+msgid "La récupération s’effectue depuis la console du serveur par un administrateur. Toutes les sessions sont alors invalidées."
+msgstr "Un amministratore può recuperare l’accesso dalla console del server. Tutte le sessioni saranno invalidate."
+
+msgid "Lancer la mise à jour"
+msgstr "Avvia aggiornamento"
+
+msgid "Lancer une mise à jour ? Une interruption des services est possible. Assurez-vous de disposer d’une sauvegarde et d’un accès console."
+msgstr "Avviare un aggiornamento? I servizi potrebbero interrompersi. Assicurati di avere un backup e accesso alla console."
+
+msgid "Langue"
+msgstr "Lingua"
+
+msgid "Le changement d’adresse du serveur ou du sous-réseau VPN est une migration : utilisez reconfigure.py depuis la console. Les paramètres ci-contre sont modifiables ici."
+msgstr "Cambiare l’indirizzo del server o la sottorete VPN richiede una migrazione: usa reconfigure.py dalla console. Le impostazioni a fianco sono modificabili qui."
+
+msgid "Le nom DNS ou l’adresse publique de votre connexion. Configurez sur votre routeur une redirection UDP du port"
+msgstr "Il nome DNS o l’IP pubblico della connessione. Sul router, inoltra la porta UDP"
+
+msgid "Le port HTTPS 443 est déjà occupé. Serveur dédié requis."
+msgstr "La porta HTTPS 443 è già occupata. Serve un server dedicato."
+
+msgid "Lecture seule"
+msgstr "Sola lettura"
+
+msgid "Les adresses sont des exemples : indiquez celles de VOTRE réseau.\nUtilisez la console Proxmox/locale pour éviter une coupure SSH.\n"
+msgstr "Gli indirizzi sono esempi: inserisci quelli della TUA rete.\nUsa la console Proxmox/locale per evitare di perdere l’accesso SSH.\n"
+
+msgid "Les clés privées des clients sont remises une seule fois à la création. Elles ne sont pas conservées par l’application."
+msgstr "Le chiavi private dei client vengono fornite una sola volta alla creazione. L’applicazione non le conserva."
+
+msgid "Les mises à jour peuvent interrompre le VPN ou la dashboard. Préparez une sauvegarde et gardez l’accès à la console."
+msgstr "Gli aggiornamenti possono interrompere la VPN o il pannello. Prepara un backup e mantieni l’accesso alla console."
+
+msgid "Les paramètres de votre installation."
+msgstr "Impostazioni dell’installazione."
+
+msgid "Les services ne répondent pas. Inspectez /var/log/keyboarded et les services depuis la console."
+msgstr "I servizi non rispondono. Controlla /var/log/keyboarded e i servizi dalla console."
+
+msgid "L’application accepte uniquement des publications signées par la clé d’éditeur configurée à l’installation. Sans source de publication configurée, la mise à jour applicative est indisponible. Aucun redémarrage automatique."
+msgstr "L’app accetta solo versioni firmate con la chiave dell’editore configurata all’installazione. Senza una fonte configurata gli aggiornamenti dell’app non sono disponibili. Nessun riavvio automatico."
+
+msgid "Maintenance"
+msgstr "Manutenzione"
+
+msgid "Mettez à jour ces champs dans l’application WireGuard de cet appareil."
+msgstr "Aggiorna questi campi nell’app WireGuard del dispositivo."
+
+msgid "Mettre à jour"
+msgstr "Aggiorna"
+
+msgid "Mise à jour applicative demandée"
+msgstr "Aggiornamento app richiesto"
+
+msgid "Mise à jour système demandée"
+msgstr "Aggiornamento sistema richiesto"
+
+msgid "Mises à jour"
+msgstr "Aggiornamenti"
+
+msgid "Mode de routage"
+msgstr "Modalità di instradamento"
+
+msgid "Modification enregistrée. Appliquez les changements au serveur. Après un changement de routage, mettez aussi à jour AllowedIPs et DNS sur le client (bouton Profil)."
+msgstr "Modifica salvata. Applica le modifiche al server. Dopo un cambio di instradamento, aggiorna anche AllowedIPs e DNS sul client (pulsante Profilo)."
+
+msgid "Modifier l’accès de cet utilisateur ?"
+msgstr "Modificare l’accesso di questo utente?"
+
+msgid "Mot de passe"
+msgstr "Password"
+
+msgid "Mot de passe actuel"
+msgstr "Password attuale"
+
+msgid "Mot de passe administrateur"
+msgstr "Password amministratore"
+
+msgid "Mot de passe administrateur (14 caractères minimum)"
+msgstr "Password amministratore (almeno 14 caratteri)"
+
+msgid "Mot de passe et double authentification"
+msgstr "Password e autenticazione a due fattori"
+
+msgid "Mot de passe incorrect."
+msgstr "Password errata."
+
+msgid "Mot de passe modifié"
+msgstr "Password modificata"
+
+msgid "Mot de passe modifié. Les autres sessions sont invalidées."
+msgstr "Password modificata. Le altre sessioni sono state invalidate."
+
+msgid "Mot de passe ou code incorrect."
+msgstr "Password o codice errato."
+
+msgid "Mot de passe trop court ou confirmation différente"
+msgstr "Password troppo corta o conferma diversa"
+
+msgid "Navigation principale"
+msgstr "Navigazione principale"
+
+msgid "Nom DNS public ou IPv4 publique (modifiable ensuite)"
+msgstr "Nome DNS o IPv4 pubblica (modificabile in seguito)"
+
+msgid "Nom de l’appareil"
+msgstr "Nome dispositivo"
+
+msgid "Nom du premier administrateur"
+msgstr "Nome del primo amministratore"
+
+msgid "Nom d’utilisateur"
+msgstr "Nome utente"
+
+msgid "Nom utilisateur invalide"
+msgstr "Nome utente non valido"
+
+msgid "Options"
+msgstr "Opzioni"
+
+msgid "Opération en cours"
+msgstr "Operazione in corso"
+
+msgid "Opération terminée. Vérifiez les services après une mise à jour."
+msgstr "Operazione completata. Verifica i servizi dopo un aggiornamento."
+
+msgid "Ouvrir le journal →"
+msgstr "Apri registro →"
+
+msgid "Page"
+msgstr "Pagina"
+
+msgid "Par appareil"
+msgstr "Per dispositivo"
+
+msgid "Paramètres réseau modifiés"
+msgstr "Impostazioni di rete modificate"
+
+msgid "Passer en complet"
+msgstr "Usa tunnel completo"
+
+msgid "Passer en fractionné"
+msgstr "Usa tunnel diviso"
+
+msgid "Phrase de sauvegarde (14 caractères minimum)"
+msgstr "Passphrase del backup (almeno 14 caratteri)"
+
+msgid "Point d’entrée public"
+msgstr "Endpoint pubblico"
+
+msgid "Politique de routage"
+msgstr "Criteri di instradamento"
+
+msgid "Port SSH ACTUEL à préserver"
+msgstr "Porta SSH ATTUALE da mantenere"
+
+msgid "Port WireGuard UDP"
+msgstr "Porta UDP WireGuard"
+
+msgid "Port d’écoute"
+msgstr "Porta di ascolto"
+
+msgid "Profil →"
+msgstr "Profilo →"
+
+msgid "Profils en tunnel complet :"
+msgstr "Profili con tunnel completo:"
+
+msgid "Profils enregistrés sur ce serveur"
+msgstr "Profili salvati su questo server"
+
+msgid "Profils et autorisations des appareils."
+msgstr "Profili e autorizzazioni dei dispositivi."
+
+msgid "Protégez votre compte."
+msgstr "Configura l’autenticazione a due fattori."
+
+msgid "Python >=3.11 requis : Debian 12/13 ou antiX sur une base correspondante."
+msgstr "Serve Python >=3.11: Debian 12/13 o antiX su una base corrispondente."
+
+msgid "QR code d’inscription TOTP"
+msgstr "Codice QR di registrazione TOTP"
+
+msgid "Rechercher"
+msgstr "Cerca"
+
+msgid "Rechercher un appareil"
+msgstr "Cerca dispositivo"
+
+msgid "Rechercher un appareil…"
+msgstr "Cerca dispositivo…"
+
+msgid "Renseignez d’abord l’adresse publique dans Réseau."
+msgstr "Inserisci prima l’indirizzo pubblico in Rete."
+
+msgid "Retour à la connexion"
+msgstr "Torna all’accesso"
+
+msgid "Reçu / envoyé"
+msgstr "Ricevuto / inviato"
+
+msgid "Routage"
+msgstr "Instradamento"
+
+msgid "Runit détecté mais /etc/service est absent. Configuration manuelle requise."
+msgstr "Runit rilevato ma /etc/service è assente. Serve configurazione manuale."
+
+msgid "Réactiver"
+msgstr "Riattiva"
+
+msgid "Récent"
+msgstr "Recente"
+
+msgid "Récupérer un accès"
+msgstr "Recupera accesso"
+
+msgid "Réinitialiser la 2FA"
+msgstr "Reimposta 2FA"
+
+msgid "Réinitialiser la 2FA et fermer les sessions de cet utilisateur ?"
+msgstr "Reimpostare la 2FA e chiudere le sessioni di questo utente?"
+
+msgid "Réseau"
+msgstr "Rete"
+
+msgid "Réseau VPN"
+msgstr "Rete VPN"
+
+msgid "Réseau appliqué. Mettez à jour les profils clients et la redirection du routeur si le port a changé."
+msgstr "Impostazioni di rete applicate. Aggiorna i profili e l’inoltro del router se la porta è cambiata."
+
+msgid "Réseau local uniquement"
+msgstr "Solo rete locale"
+
+msgid "Réseaux LAN"
+msgstr "Reti LAN"
+
+msgid "Réseaux LAN accessibles, séparés par des virgules"
+msgstr "Reti LAN accessibili, separate da virgole"
+
+msgid "Réseaux autorisés à administrer HTTPS et SSH"
+msgstr "Reti autorizzate all’amministrazione tramite HTTPS e SSH"
+
+msgid "Réseaux locaux"
+msgstr "Reti locali"
+
+msgid "Rôle"
+msgstr "Ruolo"
+
+msgid "Saisie invalide. Vérifiez le format et recommencez."
+msgstr "Valore non valido. Controlla il formato e riprova."
+
+msgid "Saisissez le code de votre application d’authentification."
+msgstr "Inserisci il codice dell’app di autenticazione."
+
+msgid "Sans handshake récent"
+msgstr "Nessun handshake recente"
+
+msgid "Sans protocole ni port. Le port est défini à l’installation."
+msgstr "Senza protocollo né porta. La porta si imposta all’installazione."
+
+msgid "Sauvegarde demandée"
+msgstr "Backup richiesto"
+
+msgid "Sauvegarde téléchargée"
+msgstr "Backup scaricato"
+
+msgid "Sauvegarder la configuration"
+msgstr "Backup della configurazione"
+
+msgid "Sauvegardes chiffrées et mises à jour contrôlées."
+msgstr "Backup cifrati e aggiornamenti controllati."
+
+msgid "Scannez ce QR code avec votre application d’authentification, puis saisissez son code à 6 chiffres."
+msgstr "Scansiona il QR con l’app di autenticazione, poi inserisci il codice a 6 cifre."
+
+msgid "Se connecter"
+msgstr "Accedi"
+
+msgid "Se déconnecter"
+msgstr "Esci"
+
+msgid "Serveur"
+msgstr "Server"
+
+msgid "Serveur WireGuard"
+msgstr "Server WireGuard"
+
+msgid "Service WireGuard indisponible ou opération refusée. Consultez les journaux système."
+msgstr "Servizio WireGuard non disponibile o operazione rifiutata. Consulta i registri di sistema."
+
+msgid "Source de mises à jour ou clé invalide"
+msgstr "Fonte aggiornamenti o chiave non valida"
+
+msgid "Sous-réseau VPN"
+msgstr "Sottorete VPN"
+
+msgid "Sous-réseau VPN, distinct de tous les LAN"
+msgstr "Sottorete VPN, distinta da tutte le LAN"
+
+msgid "Sous-réseaux IPv4 séparés par des virgules, par exemple 172.20.10.0/24, 172.20.20.0/24."
+msgstr "Sottoreti IPv4 separate da virgole, ad esempio 172.20.10.0/24, 172.20.20.0/24."
+
+msgid "Suivant →"
+msgstr "Successivo →"
+
+msgid "Supprimer"
+msgstr "Elimina"
+
+msgid "Supprimer la ligne DNS pour conserver le DNS de l’appareil"
+msgstr "Rimuovi la riga DNS per mantenere il DNS del dispositivo"
+
+msgid "Suspendre"
+msgstr "Sospendi"
+
+msgid "Suspendu"
+msgstr "Sospeso"
+
+msgid "Système Debian, WireGuard et dépendances APT"
+msgstr "Sistema Debian, WireGuard e dipendenze APT"
+
+msgid "Sécurité"
+msgstr "Sicurezza"
+
+msgid "Tapez INSTALLER pour appliquer : "
+msgstr "Digita INSTALLER per applicare: "
+
+msgid "Terminée"
+msgstr "Completata"
+
+msgid "Tout afficher →"
+msgstr "Mostra tutti →"
+
+msgid "Toutes les adresses disponibles sont utilisées."
+msgstr "Tutti gli indirizzi disponibili sono in uso."
+
+msgid "Trafic client"
+msgstr "Traffico client"
+
+msgid "Transmettez le mot de passe initial par un canal sûr. Aucun compte partagé."
+msgstr "Trasmetti la password iniziale tramite un canale sicuro. Non condividere gli account."
+
+msgid "Trop de tentatives. Réessayez dans 15 minutes."
+msgstr "Troppi tentativi. Riprova tra 15 minuti."
+
+msgid "Tunnel IPv4 complet"
+msgstr "Tunnel IPv4 completo"
+
+msgid "Tunnel complet"
+msgstr "Tunnel completo"
+
+msgid "Tunnel complet : Internet via le VPN"
+msgstr "Tunnel completo: Internet tramite VPN"
+
+msgid "Tunnel fractionné"
+msgstr "Tunnel diviso"
+
+msgid "Télécharger la dernière sauvegarde"
+msgstr "Scarica ultimo backup"
+
+msgid "Télécharger le profil .conf"
+msgstr "Scarica profilo .conf"
+
+msgid "Téléchargez ce profil maintenant : sa clé privée ne sera plus affichée. Ne le partagez pas. Appliquez ensuite la configuration au serveur depuis Appareils."
+msgstr "Scarica il profilo ora: la chiave privata non verrà più mostrata. Non condividerlo. Poi applica la configurazione al server da Dispositivi."
+
+msgid "Télémétrie indisponible."
+msgstr "Telemetria non disponibile."
+
+msgid "URL HTTPS du manifeste de mises à jour applicatives signées (vide si pas encore publié) : "
+msgstr "URL HTTPS del manifesto delle versioni firmate (vuoto se non ancora pubblicato): "
+
+msgid "Un redémarrage système est nécessaire. Planifiez-le depuis la console."
+msgstr "È necessario riavviare il sistema. Pianificalo dalla console."
+
+msgid "Utilisateur"
+msgstr "Utente"
+
+msgid "Utilisateur créé"
+msgstr "Utente creato"
+
+msgid "Utilisateurs"
+msgstr "Utenti"
+
+msgid "Votre connexion SSH actuelle serait bloquée. Corrigez les réseaux autorisés ou utilisez la console."
+msgstr "La connessione SSH attuale verrebbe bloccata. Correggi le reti autorizzate o usa la console."
+
+msgid "Vue d’ensemble"
+msgstr "Panoramica"
+
+msgid "Vérification · WireGuardian"
+msgstr "Verifica · WireGuardian"
+
+msgid "Vérifier et accéder"
+msgstr "Verifica e accedi"
+
+msgid "Vérifiez votre identité."
+msgstr "Verifica la tua identità."
+
+msgid "WireGuardian — publication signée"
+msgstr "WireGuardian — versione firmata"
+
+msgid "activée"
+msgstr "attivata"
+
+msgid "anonyme"
+msgstr "anonimo"
+
+msgid "désactivée"
+msgstr "disattivata"
+
+msgid "vers ce serveur."
+msgstr "a questo server."
+
+msgid "wg0 existe déjà. Serveur dédié requis."
+msgstr "wg0 esiste già. Serve un server dedicato."
+
+msgid "À configurer"
+msgstr "Da configurare"
+
+msgid "À configurer dans Réseau"
+msgstr "Configura in Rete"
+
+msgid "Échec"
+msgstr "Errore"
+
+msgid "Échec de l’opération. Consultez les journaux depuis la console."
+msgstr "Operazione non riuscita. Consulta i registri dalla console."
+
+msgid "État de l’appareil modifié"
+msgstr "Stato del dispositivo modificato"
+
+msgid "État du serveur et des connexions."
+msgstr "Stato del server e delle connessioni."
+
+msgid "État observé"
+msgstr "Stato rilevato"
+
+msgid "← Précédent"
+msgstr "← Precedente"
+
+msgid "← Retour aux appareils"
+msgstr "← Torna ai dispositivi"

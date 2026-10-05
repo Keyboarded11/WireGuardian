@@ -1,0 +1,15 @@
+{% load static i18n ui_text %}{% get_current_language as LANGUAGE_CODE %}<!doctype html>
+<html lang="{{ LANGUAGE_CODE }}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{% translate 'Connexion · WireGuardian' %}</title><link rel="icon" type="image/svg+xml" href="{% static 'brand/wireguardian-mark.svg' %}"><link rel="stylesheet" href="{% static 'vendor/awesome.css' %}"><link rel="stylesheet" href="{% static 'panel.css' %}"></head>
+<body class="auth-body">
+<section class="auth-story">
+  <a class="brand" href="/"><img class="brand-mark" src="{% static 'brand/wireguardian-mark-light.svg' %}" alt=""><span>Wire<strong>Guardian</strong><small>by Keyboarded</small></span></a>
+  <div class="auth-identity"><img src="{% static 'brand/wireguardian-mark-light.svg' %}" alt="WireGuardian" width="160" height="160"><h1>{% translate 'Administration WireGuard' %}</h1><p>{% translate 'Appareils, accès et configuration réseau.' %}</p></div>
+  <small>WireGuardian {{ app_version }} · Keyboarded</small>
+</section>
+<main class="auth-main"><div class="auth-language">{% include 'language.html' %}</div><div class="auth-card">
+  <h2>{% translate 'Connexion' %}</h2><p class="muted">{% translate 'Connectez-vous au serveur.' %}</p>
+  {% if error %}<div class="notice error" role="alert">{{ error }}</div>{% endif %}
+  <form method="post">{% csrf_token %}<label for="username">{% translate 'Nom d’utilisateur' %}</label><input id="username" name="username" autocomplete="username" required maxlength="150" autofocus><label for="password">{% translate 'Mot de passe' %}</label><input id="password" name="password" type="password" autocomplete="current-password" required><button class="btn btn-primary wide">{% translate 'Se connecter' %}</button></form>
+  <p class="auth-note">{% translate 'La double authentification est disponible dans les paramètres du compte.' %}</p>
+  <details><summary>{% translate 'Récupérer un accès' %}</summary><p>{% translate 'Contactez l’administrateur du serveur. La récupération s’effectue depuis sa console locale.' %}</p></details>
+</div></main></body></html>

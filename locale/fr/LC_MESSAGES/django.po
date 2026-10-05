@@ -1,0 +1,924 @@
+# Generated from locale/catalog.json.
+msgid ""
+msgstr "Project-Id-Version: WireGuardian\nContent-Type: text/plain; charset=UTF-8\nLanguage: fr\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "\nHTTPS : un certificat local sera créé. Importez-le comme certificat de confiance\nou remplacez-le par un certificat de votre PKI. Aucun port HTTP public nécessaire."
+msgstr "\nHTTPS : un certificat local sera créé. Importez-le comme certificat de confiance\nou remplacez-le par un certificat de votre PKI. Aucun port HTTP public nécessaire."
+
+msgid "\nInstallation des dépendances, création des services, HTTPS privé et pare-feu.\nLes entrées non autorisées et le transfert hors VPN seront bloqués.\nAucune modification de l’adresse IP du serveur ni de la configuration SSH.\nAucun redémarrage automatique. L’inscription 2FA sera facultative dans la dashboard."
+msgstr "\nInstallation des dépendances, création des services, HTTPS privé et pare-feu.\nLes entrées non autorisées et le transfert hors VPN seront bloqués.\nAucune modification de l’adresse IP du serveur ni de la configuration SSH.\nAucun redémarrage automatique. L’inscription 2FA sera facultative dans la dashboard."
+
+msgid "\nInstallation terminée : https://{value0}\nImportez /etc/keyboarded/tls.crt sur vos postes d’administration.\nRedirigez uniquement UDP {value1} sur votre routeur.\nVérifiez un redémarrage et un client VPN avant mise en service.\n"
+msgstr "\nInstallation terminée : https://{value0}\nImportez /etc/keyboarded/tls.crt sur vos postes d’administration.\nRedirigez uniquement UDP {value1} sur votre routeur.\nVérifiez un redémarrage et un client VPN avant mise en service.\n"
+
+msgid "\nRÉCAPITULATIF\n"
+msgstr "\nRÉCAPITULATIF\n"
+
+msgid "\nWireGuardian · Keyboarded\nAssistant d’installation — serveur Debian dédié\n"
+msgstr "\nWireGuardian · Keyboarded\nAssistant d’installation — serveur Debian dédié\n"
+
+msgid "1/4 — Réseau : les suggestions proviennent uniquement de ce serveur."
+msgstr "1/4 — Réseau : les suggestions proviennent uniquement de ce serveur."
+
+msgid "2/4 — Compte : aucun identifiant ni mot de passe prédéfini."
+msgstr "2/4 — Compte : aucun identifiant ni mot de passe prédéfini."
+
+msgid "2FA"
+msgstr "2FA"
+
+msgid "2FA désactivée"
+msgstr "2FA désactivée"
+
+msgid "2FA réinitialisée"
+msgstr "2FA réinitialisée"
+
+msgid "2FA réinitialisée. Cet utilisateur devra la configurer à nouveau."
+msgstr "2FA réinitialisée. Cet utilisateur devra la configurer à nouveau."
+
+msgid "3/4 — Maintenance : correctifs Debian et publications signées."
+msgstr "3/4 — Maintenance : correctifs Debian et publications signées."
+
+msgid "4/4 — Vérifiez : IP fixe ou réservation DHCP, accès console et serveur dédié."
+msgstr "4/4 — Vérifiez : IP fixe ou réservation DHCP, accès console et serveur dédié."
+
+msgid "ADMINISTRATION"
+msgstr "ADMINISTRATION"
+
+msgid "Accès"
+msgstr "Accès"
+
+msgid "Accès LAN & VPN"
+msgstr "Accès LAN & VPN"
+
+msgid "Accès réservé aux administrateurs."
+msgstr "Accès réservé aux administrateurs."
+
+msgid "Accès souhaité"
+msgstr "Accès souhaité"
+
+msgid "Accès utilisateur modifié"
+msgstr "Accès utilisateur modifié"
+
+msgid "Actif"
+msgstr "Actif"
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Action inconnue"
+msgstr "Action inconnue"
+
+msgid "Action invalide"
+msgstr "Action invalide"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "Activer la 2FA"
+msgstr "Activer la 2FA"
+
+msgid "Activer les mises à jour de sécurité Debian automatiques ? y/n"
+msgstr "Activer les mises à jour de sécurité Debian automatiques ? y/n"
+
+msgid "Actualiser le suivi"
+msgstr "Actualiser le suivi"
+
+msgid "Administrateur"
+msgstr "Administrateur"
+
+msgid "Administration"
+msgstr "Administration"
+
+msgid "Administration WireGuard"
+msgstr "Administration WireGuard"
+
+msgid "Administration privée"
+msgstr "Administration privée"
+
+msgid "Adresse IP publique ou nom DNS"
+msgstr "Adresse IP publique ou nom DNS"
+
+msgid "Adresse IPv4 fixe déjà configurée sur ce serveur"
+msgstr "Adresse IPv4 fixe déjà configurée sur ce serveur"
+
+msgid "Adresse VPN"
+msgstr "Adresse VPN"
+
+msgid "Adresse du serveur dans ce VPN"
+msgstr "Adresse du serveur dans ce VPN"
+
+msgid "Adresse d’administration absente de l’interface choisie. Configurez une IP fixe avant installation."
+msgstr "Adresse d’administration absente de l’interface choisie. Configurez une IP fixe avant installation."
+
+msgid "Adresse publique"
+msgstr "Adresse publique"
+
+msgid "Ajouter un appareil"
+msgstr "Ajouter un appareil"
+
+msgid "Ajouter un appareil →"
+msgstr "Ajouter un appareil →"
+
+msgid "Ajoutez une vérification par application d’authentification à votre mot de passe."
+msgstr "Ajoutez une vérification par application d’authentification à votre mot de passe."
+
+msgid "Ajoutez votre premier appareil pour créer son profil WireGuard."
+msgstr "Ajoutez votre premier appareil pour créer son profil WireGuard."
+
+msgid "Aller au contenu"
+msgstr "Aller au contenu"
+
+msgid "AllowedIPs — section [Peer]"
+msgstr "AllowedIPs — section [Peer]"
+
+msgid "Appareil"
+msgstr "Appareil"
+
+msgid "Appareil créé"
+msgstr "Appareil créé"
+
+msgid "Appareil perdu ?"
+msgstr "Appareil perdu ?"
+
+msgid "Appareil supprimé"
+msgstr "Appareil supprimé"
+
+msgid "Appareils"
+msgstr "Appareils"
+
+msgid "Appareils configurés"
+msgstr "Appareils configurés"
+
+msgid "Appareils, accès et configuration réseau."
+msgstr "Appareils, accès et configuration réseau."
+
+msgid "Appliquer au serveur"
+msgstr "Appliquer au serveur"
+
+msgid "Appliquer les accès enregistrés ? Les appareils désactivés ou supprimés seront déconnectés."
+msgstr "Appliquer les accès enregistrés ? Les appareils désactivés ou supprimés seront déconnectés."
+
+msgid "Appliquer les paramètres"
+msgstr "Appliquer les paramètres"
+
+msgid "Aucun appareil configuré."
+msgstr "Aucun appareil configuré."
+
+msgid "Aucun appareil."
+msgstr "Aucun appareil."
+
+msgid "Aucun résultat."
+msgstr "Aucun résultat."
+
+msgid "Aucune action enregistrée."
+msgstr "Aucune action enregistrée."
+
+msgid "Aucune donnée simulée n’est affichée."
+msgstr "Aucune donnée simulée n’est affichée."
+
+msgid "Aucune opération"
+msgstr "Aucune opération"
+
+msgid "Authentification à deux facteurs"
+msgstr "Authentification à deux facteurs"
+
+msgid "Autorisé"
+msgstr "Autorisé"
+
+msgid "Ce compte ne peut pas être désactivé ici."
+msgstr "Ce compte ne peut pas être désactivé ici."
+
+msgid "Ces prérequis sont-ils assurés ? y/n"
+msgstr "Ces prérequis sont-ils assurés ? y/n"
+
+msgid "Changements en attente."
+msgstr "Changements en attente."
+
+msgid "Changer de langue"
+msgstr "Changer de langue"
+
+msgid "Changer le mot de passe"
+msgstr "Changer le mot de passe"
+
+msgid "Changer votre mot de passe"
+msgstr "Changer votre mot de passe"
+
+msgid "Chaque utilisateur active sa 2FA depuis les options de son propre compte."
+msgstr "Chaque utilisateur active sa 2FA depuis les options de son propre compte."
+
+msgid "Choisissez un tunnel fractionné ou complet pour chaque appareil."
+msgstr "Choisissez un tunnel fractionné ou complet pour chaque appareil."
+
+msgid "Clé publique Ed25519 Base64 de l’éditeur : "
+msgstr "Clé publique Ed25519 Base64 de l’éditeur : "
+
+msgid "Code de l’application"
+msgstr "Code de l’application"
+
+msgid "Code de sécurité"
+msgstr "Code de sécurité"
+
+msgid "Code invalide, déjà utilisé ou temporairement bloqué."
+msgstr "Code invalide, déjà utilisé ou temporairement bloqué."
+
+msgid "Complet"
+msgstr "Complet"
+
+msgid "Composant"
+msgstr "Composant"
+
+msgid "Compte créé. Gérez son mot de passe et sa 2FA dans ses options."
+msgstr "Compte créé. Gérez son mot de passe et sa 2FA dans ses options."
+
+msgid "Compte créé. La double authentification est disponible dans Sécurité."
+msgstr "Compte créé. La double authentification est disponible dans Sécurité."
+
+msgid "Compte protégé"
+msgstr "Compte protégé"
+
+msgid "Comptes, 2FA, configuration, clé du serveur et appareils. L’archive est chiffrée avec votre phrase secrète."
+msgstr "Comptes, 2FA, configuration, clé du serveur et appareils. L’archive est chiffrée avec votre phrase secrète."
+
+msgid "Configuration WireGuard appliquée"
+msgstr "Configuration WireGuard appliquée"
+
+msgid "Configuration appliquée au tunnel WireGuard."
+msgstr "Configuration appliquée au tunnel WireGuard."
+
+msgid "Configuration du client"
+msgstr "Configuration du client"
+
+msgid "Configuration du serveur"
+msgstr "Configuration du serveur"
+
+msgid "Configurer manuellement"
+msgstr "Configurer manuellement"
+
+msgid "Configurez un DNS dans Réseau avant de créer un profil en tunnel complet."
+msgstr "Configurez un DNS dans Réseau avant de créer un profil en tunnel complet."
+
+msgid "Configurez un DNS dans Réseau avant d’activer un tunnel complet."
+msgstr "Configurez un DNS dans Réseau avant d’activer un tunnel complet."
+
+msgid "Confirmez la phrase"
+msgstr "Confirmez la phrase"
+
+msgid "Confirmez le mot de passe"
+msgstr "Confirmez le mot de passe"
+
+msgid "Confirmez votre mot de passe"
+msgstr "Confirmez votre mot de passe"
+
+msgid "Confirmez votre mot de passe administrateur"
+msgstr "Confirmez votre mot de passe administrateur"
+
+msgid "Confirmez votre mot de passe pour autoriser cette opération"
+msgstr "Confirmez votre mot de passe pour autoriser cette opération"
+
+msgid "Confirmez votre mot de passe pour modifier le réseau."
+msgstr "Confirmez votre mot de passe pour modifier le réseau."
+
+msgid "Connectez-vous au serveur."
+msgstr "Connectez-vous au serveur."
+
+msgid "Connexion"
+msgstr "Connexion"
+
+msgid "Connexion avec 2FA"
+msgstr "Connexion avec 2FA"
+
+msgid "Connexion par mot de passe"
+msgstr "Connexion par mot de passe"
+
+msgid "Connexion refusée"
+msgstr "Connexion refusée"
+
+msgid "Connexion · WireGuardian"
+msgstr "Connexion · WireGuardian"
+
+msgid "Connexions et changements de configuration. Aucun secret dans le journal."
+msgstr "Connexions et changements de configuration. Aucun secret dans le journal."
+
+msgid "Connexions récentes"
+msgstr "Connexions récentes"
+
+msgid "Conservez la clé privée déjà présente dans le client. Après modification, désactivez et réactivez le tunnel. Le serveur doit également recevoir les changements via « Appliquer au serveur »."
+msgstr "Conservez la clé privée déjà présente dans le client. Après modification, désactivez et réactivez le tunnel. Le serveur doit également recevoir les changements via « Appliquer au serveur »."
+
+msgid "Conservez votre phrase hors du serveur : elle n’est pas enregistrée. Une sauvegarde complète remplace la précédente. La restauration s’effectue depuis la console avec restore.py."
+msgstr "Conservez votre phrase hors du serveur : elle n’est pas enregistrée. Une sauvegarde complète remplace la précédente. La restauration s’effectue depuis la console avec restore.py."
+
+msgid "Conservé sur le client"
+msgstr "Conservé sur le client"
+
+msgid "Contactez l’administrateur du serveur. La récupération s’effectue depuis sa console locale."
+msgstr "Contactez l’administrateur du serveur. La récupération s’effectue depuis sa console locale."
+
+msgid "Création"
+msgstr "Création"
+
+msgid "Créer un utilisateur"
+msgstr "Créer un utilisateur"
+
+msgid "Créer une sauvegarde chiffrée"
+msgstr "Créer une sauvegarde chiffrée"
+
+msgid "Créez un profil et choisissez son mode de routage."
+msgstr "Créez un profil et choisissez son mode de routage."
+
+msgid "Créez un profil pour connecter un ordinateur ou un téléphone à votre réseau."
+msgstr "Créez un profil pour connecter un ordinateur ou un téléphone à votre réseau."
+
+msgid "DNS IPv4 des profils (vide = conserver le DNS client) : "
+msgstr "DNS IPv4 des profils (vide = conserver le DNS client) : "
+
+msgid "DNS des profils clients"
+msgstr "DNS des profils clients"
+
+msgid "DNS du profil"
+msgstr "DNS du profil"
+
+msgid "DNS — section [Interface]"
+msgstr "DNS — section [Interface]"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Demande transmise. Actualisez le suivi pour connaître le résultat ; une seule opération peut s’exécuter à la fois."
+msgstr "Demande transmise. Actualisez le suivi pour connaître le résultat ; une seule opération peut s’exécuter à la fois."
+
+msgid "Dernière connexion"
+msgstr "Dernière connexion"
+
+msgid "Dernière opération :"
+msgstr "Dernière opération :"
+
+msgid "Dernières actions"
+msgstr "Dernières actions"
+
+msgid "Des accès personnels, protégés à chaque connexion."
+msgstr "Des accès personnels, protégés à chaque connexion."
+
+msgid "Des comptes individuels avec une double authentification facultative."
+msgstr "Des comptes individuels avec une double authentification facultative."
+
+msgid "Double authentification désactivée."
+msgstr "Double authentification désactivée."
+
+msgid "Durée des sessions"
+msgstr "Durée des sessions"
+
+msgid "Déconnexion après 30 minutes d’inactivité. Nouvelle authentification après 8 heures au maximum."
+msgstr "Déconnexion après 30 minutes d’inactivité. Nouvelle authentification après 8 heures au maximum."
+
+msgid "Désactiver"
+msgstr "Désactiver"
+
+msgid "Désactiver la 2FA"
+msgstr "Désactiver la 2FA"
+
+msgid "Désactivé"
+msgstr "Désactivé"
+
+msgid "Désactivé : tunnel fractionné, Internet reste direct. Activé : IPv4 via le VPN, IPv6 bloqué dans le tunnel pour éviter une fuite."
+msgstr "Désactivé : tunnel fractionné, Internet reste direct. Activé : IPv4 via le VPN, IPv6 bloqué dans le tunnel pour éviter une fuite."
+
+msgid "Détail"
+msgstr "Détail"
+
+msgid "En cours"
+msgstr "En cours"
+
+msgid "En service"
+msgstr "En service"
+
+msgid "Endpoint — section [Peer]"
+msgstr "Endpoint — section [Peer]"
+
+msgid "Enregistrer"
+msgstr "Enregistrer"
+
+msgid "Enregistrer ce changement d’accès ? Il faudra ensuite l’appliquer au serveur."
+msgstr "Enregistrer ce changement d’accès ? Il faudra ensuite l’appliquer au serveur."
+
+msgid "Essayez un autre nom."
+msgstr "Essayez un autre nom."
+
+msgid "Fractionné"
+msgstr "Fractionné"
+
+msgid "GESTION"
+msgstr "GESTION"
+
+msgid "Gérer et appliquer les accès →"
+msgstr "Gérer et appliquer les accès →"
+
+msgid "Handshake de moins de 3 minutes"
+msgstr "Handshake de moins de 3 minutes"
+
+msgid "IPv4 traverse le serveur. La route IPv6 est dirigée vers le tunnel et bloquée, afin de ne pas sortir directement par IPv6."
+msgstr "IPv4 traverse le serveur. La route IPv6 est dirigée vers le tunnel et bloquée, afin de ne pas sortir directement par IPv6."
+
+msgid "Identifiants incorrects."
+msgstr "Identifiants incorrects."
+
+msgid "Importez ce fichier dans l’application WireGuard de votre appareil."
+msgstr "Importez ce fichier dans l’application WireGuard de votre appareil."
+
+msgid "Inconnu"
+msgstr "Inconnu"
+
+msgid "Indicateurs"
+msgstr "Indicateurs"
+
+msgid "Indiquez entre 1 et 16 réseaux IPv4 valides."
+msgstr "Indiquez entre 1 et 16 réseaux IPv4 valides."
+
+msgid "Indiquez une adresse IPv4 ou un nom DNS valide."
+msgstr "Indiquez une adresse IPv4 ou un nom DNS valide."
+
+msgid "Indisponible"
+msgstr "Indisponible"
+
+msgid "Init {value0} non pris en charge : systemd, SysV ou runit requis."
+msgstr "Init {value0} non pris en charge : systemd, SysV ou runit requis."
+
+msgid "Installation annulée."
+msgstr "Installation annulée."
+
+msgid "Installation arrêtée : {value0}. Consultez la console ; aucun nettoyage destructif automatique."
+msgstr "Installation arrêtée : {value0}. Consultez la console ; aucun nettoyage destructif automatique."
+
+msgid "Installation existante détectée. Aucun écrasement : utilisez la maintenance ou la restauration."
+msgstr "Installation existante détectée. Aucun écrasement : utilisez la maintenance ou la restauration."
+
+msgid "Installation à lancer en root sur Debian/antiX."
+msgstr "Installation à lancer en root sur Debian/antiX."
+
+msgid "Interface réseau de sortie"
+msgstr "Interface réseau de sortie"
+
+msgid "Interface réseau de sortie (ip -br link)"
+msgstr "Interface réseau de sortie (ip -br link)"
+
+msgid "Jamais"
+msgstr "Jamais"
+
+msgid "Journal d’activité"
+msgstr "Journal d’activité"
+
+msgid "Keyboarded · Logiciel libre"
+msgstr "Keyboarded · Logiciel libre"
+
+msgid "La configuration enregistrée diffère de la dernière version appliquée."
+msgstr "La configuration enregistrée diffère de la dernière version appliquée."
+
+msgid "La double authentification est disponible dans les paramètres du compte."
+msgstr "La double authentification est disponible dans les paramètres du compte."
+
+msgid "La phrase de sauvegarde doit contenir 14 caractères minimum et les deux saisies doivent correspondre."
+msgstr "La phrase de sauvegarde doit contenir 14 caractères minimum et les deux saisies doivent correspondre."
+
+msgid "La récupération s’effectue depuis la console du serveur par un administrateur. Toutes les sessions sont alors invalidées."
+msgstr "La récupération s’effectue depuis la console du serveur par un administrateur. Toutes les sessions sont alors invalidées."
+
+msgid "Lancer la mise à jour"
+msgstr "Lancer la mise à jour"
+
+msgid "Lancer une mise à jour ? Une interruption des services est possible. Assurez-vous de disposer d’une sauvegarde et d’un accès console."
+msgstr "Lancer une mise à jour ? Une interruption des services est possible. Assurez-vous de disposer d’une sauvegarde et d’un accès console."
+
+msgid "Langue"
+msgstr "Langue"
+
+msgid "Le changement d’adresse du serveur ou du sous-réseau VPN est une migration : utilisez reconfigure.py depuis la console. Les paramètres ci-contre sont modifiables ici."
+msgstr "Le changement d’adresse du serveur ou du sous-réseau VPN est une migration : utilisez reconfigure.py depuis la console. Les paramètres ci-contre sont modifiables ici."
+
+msgid "Le nom DNS ou l’adresse publique de votre connexion. Configurez sur votre routeur une redirection UDP du port"
+msgstr "Le nom DNS ou l’adresse publique de votre connexion. Configurez sur votre routeur une redirection UDP du port"
+
+msgid "Le port HTTPS 443 est déjà occupé. Serveur dédié requis."
+msgstr "Le port HTTPS 443 est déjà occupé. Serveur dédié requis."
+
+msgid "Lecture seule"
+msgstr "Lecture seule"
+
+msgid "Les adresses sont des exemples : indiquez celles de VOTRE réseau.\nUtilisez la console Proxmox/locale pour éviter une coupure SSH.\n"
+msgstr "Les adresses sont des exemples : indiquez celles de VOTRE réseau.\nUtilisez la console Proxmox/locale pour éviter une coupure SSH.\n"
+
+msgid "Les clés privées des clients sont remises une seule fois à la création. Elles ne sont pas conservées par l’application."
+msgstr "Les clés privées des clients sont remises une seule fois à la création. Elles ne sont pas conservées par l’application."
+
+msgid "Les mises à jour peuvent interrompre le VPN ou la dashboard. Préparez une sauvegarde et gardez l’accès à la console."
+msgstr "Les mises à jour peuvent interrompre le VPN ou la dashboard. Préparez une sauvegarde et gardez l’accès à la console."
+
+msgid "Les paramètres de votre installation."
+msgstr "Les paramètres de votre installation."
+
+msgid "Les services ne répondent pas. Inspectez /var/log/keyboarded et les services depuis la console."
+msgstr "Les services ne répondent pas. Inspectez /var/log/keyboarded et les services depuis la console."
+
+msgid "L’application accepte uniquement des publications signées par la clé d’éditeur configurée à l’installation. Sans source de publication configurée, la mise à jour applicative est indisponible. Aucun redémarrage automatique."
+msgstr "L’application accepte uniquement des publications signées par la clé d’éditeur configurée à l’installation. Sans source de publication configurée, la mise à jour applicative est indisponible. Aucun redémarrage automatique."
+
+msgid "Maintenance"
+msgstr "Maintenance"
+
+msgid "Mettez à jour ces champs dans l’application WireGuard de cet appareil."
+msgstr "Mettez à jour ces champs dans l’application WireGuard de cet appareil."
+
+msgid "Mettre à jour"
+msgstr "Mettre à jour"
+
+msgid "Mise à jour applicative demandée"
+msgstr "Mise à jour applicative demandée"
+
+msgid "Mise à jour système demandée"
+msgstr "Mise à jour système demandée"
+
+msgid "Mises à jour"
+msgstr "Mises à jour"
+
+msgid "Mode de routage"
+msgstr "Mode de routage"
+
+msgid "Modification enregistrée. Appliquez les changements au serveur. Après un changement de routage, mettez aussi à jour AllowedIPs et DNS sur le client (bouton Profil)."
+msgstr "Modification enregistrée. Appliquez les changements au serveur. Après un changement de routage, mettez aussi à jour AllowedIPs et DNS sur le client (bouton Profil)."
+
+msgid "Modifier l’accès de cet utilisateur ?"
+msgstr "Modifier l’accès de cet utilisateur ?"
+
+msgid "Mot de passe"
+msgstr "Mot de passe"
+
+msgid "Mot de passe actuel"
+msgstr "Mot de passe actuel"
+
+msgid "Mot de passe administrateur"
+msgstr "Mot de passe administrateur"
+
+msgid "Mot de passe administrateur (14 caractères minimum)"
+msgstr "Mot de passe administrateur (14 caractères minimum)"
+
+msgid "Mot de passe et double authentification"
+msgstr "Mot de passe et double authentification"
+
+msgid "Mot de passe incorrect."
+msgstr "Mot de passe incorrect."
+
+msgid "Mot de passe modifié"
+msgstr "Mot de passe modifié"
+
+msgid "Mot de passe modifié. Les autres sessions sont invalidées."
+msgstr "Mot de passe modifié. Les autres sessions sont invalidées."
+
+msgid "Mot de passe ou code incorrect."
+msgstr "Mot de passe ou code incorrect."
+
+msgid "Mot de passe trop court ou confirmation différente"
+msgstr "Mot de passe trop court ou confirmation différente"
+
+msgid "Navigation principale"
+msgstr "Navigation principale"
+
+msgid "Nom DNS public ou IPv4 publique (modifiable ensuite)"
+msgstr "Nom DNS public ou IPv4 publique (modifiable ensuite)"
+
+msgid "Nom de l’appareil"
+msgstr "Nom de l’appareil"
+
+msgid "Nom du premier administrateur"
+msgstr "Nom du premier administrateur"
+
+msgid "Nom d’utilisateur"
+msgstr "Nom d’utilisateur"
+
+msgid "Nom utilisateur invalide"
+msgstr "Nom utilisateur invalide"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Opération en cours"
+msgstr "Opération en cours"
+
+msgid "Opération terminée. Vérifiez les services après une mise à jour."
+msgstr "Opération terminée. Vérifiez les services après une mise à jour."
+
+msgid "Ouvrir le journal →"
+msgstr "Ouvrir le journal →"
+
+msgid "Page"
+msgstr "Page"
+
+msgid "Par appareil"
+msgstr "Par appareil"
+
+msgid "Paramètres réseau modifiés"
+msgstr "Paramètres réseau modifiés"
+
+msgid "Passer en complet"
+msgstr "Passer en complet"
+
+msgid "Passer en fractionné"
+msgstr "Passer en fractionné"
+
+msgid "Phrase de sauvegarde (14 caractères minimum)"
+msgstr "Phrase de sauvegarde (14 caractères minimum)"
+
+msgid "Point d’entrée public"
+msgstr "Point d’entrée public"
+
+msgid "Politique de routage"
+msgstr "Politique de routage"
+
+msgid "Port SSH ACTUEL à préserver"
+msgstr "Port SSH ACTUEL à préserver"
+
+msgid "Port WireGuard UDP"
+msgstr "Port WireGuard UDP"
+
+msgid "Port d’écoute"
+msgstr "Port d’écoute"
+
+msgid "Profil →"
+msgstr "Profil →"
+
+msgid "Profils en tunnel complet :"
+msgstr "Profils en tunnel complet :"
+
+msgid "Profils enregistrés sur ce serveur"
+msgstr "Profils enregistrés sur ce serveur"
+
+msgid "Profils et autorisations des appareils."
+msgstr "Profils et autorisations des appareils."
+
+msgid "Protégez votre compte."
+msgstr "Protégez votre compte."
+
+msgid "Python >=3.11 requis : Debian 12/13 ou antiX sur une base correspondante."
+msgstr "Python >=3.11 requis : Debian 12/13 ou antiX sur une base correspondante."
+
+msgid "QR code d’inscription TOTP"
+msgstr "QR code d’inscription TOTP"
+
+msgid "Rechercher"
+msgstr "Rechercher"
+
+msgid "Rechercher un appareil"
+msgstr "Rechercher un appareil"
+
+msgid "Rechercher un appareil…"
+msgstr "Rechercher un appareil…"
+
+msgid "Renseignez d’abord l’adresse publique dans Réseau."
+msgstr "Renseignez d’abord l’adresse publique dans Réseau."
+
+msgid "Retour à la connexion"
+msgstr "Retour à la connexion"
+
+msgid "Reçu / envoyé"
+msgstr "Reçu / envoyé"
+
+msgid "Routage"
+msgstr "Routage"
+
+msgid "Runit détecté mais /etc/service est absent. Configuration manuelle requise."
+msgstr "Runit détecté mais /etc/service est absent. Configuration manuelle requise."
+
+msgid "Réactiver"
+msgstr "Réactiver"
+
+msgid "Récent"
+msgstr "Récent"
+
+msgid "Récupérer un accès"
+msgstr "Récupérer un accès"
+
+msgid "Réinitialiser la 2FA"
+msgstr "Réinitialiser la 2FA"
+
+msgid "Réinitialiser la 2FA et fermer les sessions de cet utilisateur ?"
+msgstr "Réinitialiser la 2FA et fermer les sessions de cet utilisateur ?"
+
+msgid "Réseau"
+msgstr "Réseau"
+
+msgid "Réseau VPN"
+msgstr "Réseau VPN"
+
+msgid "Réseau appliqué. Mettez à jour les profils clients et la redirection du routeur si le port a changé."
+msgstr "Réseau appliqué. Mettez à jour les profils clients et la redirection du routeur si le port a changé."
+
+msgid "Réseau local uniquement"
+msgstr "Réseau local uniquement"
+
+msgid "Réseaux LAN"
+msgstr "Réseaux LAN"
+
+msgid "Réseaux LAN accessibles, séparés par des virgules"
+msgstr "Réseaux LAN accessibles, séparés par des virgules"
+
+msgid "Réseaux autorisés à administrer HTTPS et SSH"
+msgstr "Réseaux autorisés à administrer HTTPS et SSH"
+
+msgid "Réseaux locaux"
+msgstr "Réseaux locaux"
+
+msgid "Rôle"
+msgstr "Rôle"
+
+msgid "Saisie invalide. Vérifiez le format et recommencez."
+msgstr "Saisie invalide. Vérifiez le format et recommencez."
+
+msgid "Saisissez le code de votre application d’authentification."
+msgstr "Saisissez le code de votre application d’authentification."
+
+msgid "Sans handshake récent"
+msgstr "Sans handshake récent"
+
+msgid "Sans protocole ni port. Le port est défini à l’installation."
+msgstr "Sans protocole ni port. Le port est défini à l’installation."
+
+msgid "Sauvegarde demandée"
+msgstr "Sauvegarde demandée"
+
+msgid "Sauvegarde téléchargée"
+msgstr "Sauvegarde téléchargée"
+
+msgid "Sauvegarder la configuration"
+msgstr "Sauvegarder la configuration"
+
+msgid "Sauvegardes chiffrées et mises à jour contrôlées."
+msgstr "Sauvegardes chiffrées et mises à jour contrôlées."
+
+msgid "Scannez ce QR code avec votre application d’authentification, puis saisissez son code à 6 chiffres."
+msgstr "Scannez ce QR code avec votre application d’authentification, puis saisissez son code à 6 chiffres."
+
+msgid "Se connecter"
+msgstr "Se connecter"
+
+msgid "Se déconnecter"
+msgstr "Se déconnecter"
+
+msgid "Serveur"
+msgstr "Serveur"
+
+msgid "Serveur WireGuard"
+msgstr "Serveur WireGuard"
+
+msgid "Service WireGuard indisponible ou opération refusée. Consultez les journaux système."
+msgstr "Service WireGuard indisponible ou opération refusée. Consultez les journaux système."
+
+msgid "Source de mises à jour ou clé invalide"
+msgstr "Source de mises à jour ou clé invalide"
+
+msgid "Sous-réseau VPN"
+msgstr "Sous-réseau VPN"
+
+msgid "Sous-réseau VPN, distinct de tous les LAN"
+msgstr "Sous-réseau VPN, distinct de tous les LAN"
+
+msgid "Sous-réseaux IPv4 séparés par des virgules, par exemple 172.20.10.0/24, 172.20.20.0/24."
+msgstr "Sous-réseaux IPv4 séparés par des virgules, par exemple 172.20.10.0/24, 172.20.20.0/24."
+
+msgid "Suivant →"
+msgstr "Suivant →"
+
+msgid "Supprimer"
+msgstr "Supprimer"
+
+msgid "Supprimer la ligne DNS pour conserver le DNS de l’appareil"
+msgstr "Supprimer la ligne DNS pour conserver le DNS de l’appareil"
+
+msgid "Suspendre"
+msgstr "Suspendre"
+
+msgid "Suspendu"
+msgstr "Suspendu"
+
+msgid "Système Debian, WireGuard et dépendances APT"
+msgstr "Système Debian, WireGuard et dépendances APT"
+
+msgid "Sécurité"
+msgstr "Sécurité"
+
+msgid "Tapez INSTALLER pour appliquer : "
+msgstr "Tapez INSTALLER pour appliquer : "
+
+msgid "Terminée"
+msgstr "Terminée"
+
+msgid "Tout afficher →"
+msgstr "Tout afficher →"
+
+msgid "Toutes les adresses disponibles sont utilisées."
+msgstr "Toutes les adresses disponibles sont utilisées."
+
+msgid "Trafic client"
+msgstr "Trafic client"
+
+msgid "Transmettez le mot de passe initial par un canal sûr. Aucun compte partagé."
+msgstr "Transmettez le mot de passe initial par un canal sûr. Aucun compte partagé."
+
+msgid "Trop de tentatives. Réessayez dans 15 minutes."
+msgstr "Trop de tentatives. Réessayez dans 15 minutes."
+
+msgid "Tunnel IPv4 complet"
+msgstr "Tunnel IPv4 complet"
+
+msgid "Tunnel complet"
+msgstr "Tunnel complet"
+
+msgid "Tunnel complet : Internet via le VPN"
+msgstr "Tunnel complet : Internet via le VPN"
+
+msgid "Tunnel fractionné"
+msgstr "Tunnel fractionné"
+
+msgid "Télécharger la dernière sauvegarde"
+msgstr "Télécharger la dernière sauvegarde"
+
+msgid "Télécharger le profil .conf"
+msgstr "Télécharger le profil .conf"
+
+msgid "Téléchargez ce profil maintenant : sa clé privée ne sera plus affichée. Ne le partagez pas. Appliquez ensuite la configuration au serveur depuis Appareils."
+msgstr "Téléchargez ce profil maintenant : sa clé privée ne sera plus affichée. Ne le partagez pas. Appliquez ensuite la configuration au serveur depuis Appareils."
+
+msgid "Télémétrie indisponible."
+msgstr "Télémétrie indisponible."
+
+msgid "URL HTTPS du manifeste de mises à jour applicatives signées (vide si pas encore publié) : "
+msgstr "URL HTTPS du manifeste de mises à jour applicatives signées (vide si pas encore publié) : "
+
+msgid "Un redémarrage système est nécessaire. Planifiez-le depuis la console."
+msgstr "Un redémarrage système est nécessaire. Planifiez-le depuis la console."
+
+msgid "Utilisateur"
+msgstr "Utilisateur"
+
+msgid "Utilisateur créé"
+msgstr "Utilisateur créé"
+
+msgid "Utilisateurs"
+msgstr "Utilisateurs"
+
+msgid "Votre connexion SSH actuelle serait bloquée. Corrigez les réseaux autorisés ou utilisez la console."
+msgstr "Votre connexion SSH actuelle serait bloquée. Corrigez les réseaux autorisés ou utilisez la console."
+
+msgid "Vue d’ensemble"
+msgstr "Vue d’ensemble"
+
+msgid "Vérification · WireGuardian"
+msgstr "Vérification · WireGuardian"
+
+msgid "Vérifier et accéder"
+msgstr "Vérifier et accéder"
+
+msgid "Vérifiez votre identité."
+msgstr "Vérifiez votre identité."
+
+msgid "WireGuardian — publication signée"
+msgstr "WireGuardian — publication signée"
+
+msgid "activée"
+msgstr "activée"
+
+msgid "anonyme"
+msgstr "anonyme"
+
+msgid "désactivée"
+msgstr "désactivée"
+
+msgid "vers ce serveur."
+msgstr "vers ce serveur."
+
+msgid "wg0 existe déjà. Serveur dédié requis."
+msgstr "wg0 existe déjà. Serveur dédié requis."
+
+msgid "À configurer"
+msgstr "À configurer"
+
+msgid "À configurer dans Réseau"
+msgstr "À configurer dans Réseau"
+
+msgid "Échec"
+msgstr "Échec"
+
+msgid "Échec de l’opération. Consultez les journaux depuis la console."
+msgstr "Échec de l’opération. Consultez les journaux depuis la console."
+
+msgid "État de l’appareil modifié"
+msgstr "État de l’appareil modifié"
+
+msgid "État du serveur et des connexions."
+msgstr "État du serveur et des connexions."
+
+msgid "État observé"
+msgstr "État observé"
+
+msgid "← Précédent"
+msgstr "← Précédent"
+
+msgid "← Retour aux appareils"
+msgstr "← Retour aux appareils"

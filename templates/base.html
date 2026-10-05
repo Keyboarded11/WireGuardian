@@ -1,0 +1,36 @@
+{% load static i18n ui_text %}{% get_current_language as LANGUAGE_CODE %}<!doctype html>
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="author" content="Keyboarded">
+  <title>{% block title %}WireGuardian{% endblock %} · Keyboarded</title>
+  <link rel="icon" type="image/svg+xml" href="{% static 'brand/wireguardian-mark.svg' %}">
+  <link rel="stylesheet" href="{% static 'vendor/awesome.css' %}"><link rel="stylesheet" href="{% static 'vendor/themify/themify-icons.css' %}">
+  <link rel="stylesheet" href="{% static 'panel.css' %}"><script defer src="{% static 'panel.js' %}"></script>
+</head>
+<body><a class="skip" href="#main">{% translate 'Aller au contenu' %}</a>
+<aside class="sidebar">
+  <a class="brand" href="{% url 'overview' %}"><img class="brand-mark" src="{% static 'brand/wireguardian-mark-light.svg' %}" alt=""><span>Wire<strong>Guardian</strong><small>by Keyboarded</small></span></a>
+  <div class="nav-label">{% translate 'GESTION' %}</div>
+  <nav aria-label="{% translate 'Navigation principale' %}">
+    <a class="{% if page == 'overview' %}selected{% endif %}" href="{% url 'overview' %}"><i class="ti-layout-grid2" aria-hidden="true"></i> {% translate 'Vue d’ensemble' %}</a>
+    <a class="{% if page == 'peers' %}selected{% endif %}" href="{% url 'peers' %}"><i class="ti-desktop" aria-hidden="true"></i> {% translate 'Appareils' %}</a>
+    {% if request.user.is_staff %}
+    <a class="{% if page == 'network' %}selected{% endif %}" href="{% url 'network' %}"><i class="ti-exchange-vertical" aria-hidden="true"></i> {% translate 'Réseau' %}</a>
+    {% endif %}
+    <a class="{% if page == 'users' %}selected{% endif %}" href="{% url 'users' %}"><i class="ti-user" aria-hidden="true"></i> {% translate 'Utilisateurs' %}</a>
+    <div class="nav-label">{% translate 'ADMINISTRATION' %}</div>
+    {% if request.user.is_staff %}
+    <a class="{% if page == 'journal' %}selected{% endif %}" href="{% url 'journal' %}"><i class="ti-agenda" aria-hidden="true"></i> {% translate 'Journal d’activité' %}</a>
+    <a class="{% if page == 'maintenance' %}selected{% endif %}" href="{% url 'maintenance' %}"><i class="ti-settings" aria-hidden="true"></i> {% translate 'Maintenance' %}</a>
+    {% endif %}
+  </nav>
+  <div class="sidebar-bottom"><i class="ti-lock" aria-hidden="true"></i> {% translate 'Administration privée' %}<div>{% translate 'Accès LAN & VPN' %}</div><small>WireGuardian · {{ app_version }}</small></div>
+</aside>
+<div class="workspace">
+  <header class="topbar">
+    <div class="server-context"><span class="muted">{% translate 'Serveur' %}</span><span class="slash">/</span><span class="mono">{{ installation.admin_address }}</span>{% if development %}<span class="environment">LOCAL</span>{% endif %}</div>
+    <div class="topbar-actions">{% include 'language.html' %}<div class="account"><span class="avatar">{{ request.user.username|first|upper }}</span><span>{{ request.user.username }}<small>{% if request.user.is_staff %}{% translate 'Administrateur' %}{% else %}{% translate 'Lecture seule' %}{% endif %}</small></span><form method="post" action="{% url 'logout' %}">{% csrf_token %}<button class="logout" title="{% translate 'Se déconnecter' %}" aria-label="{% translate 'Se déconnecter' %}"><i class="ti-shift-right" aria-hidden="true"></i></button></form></div></div>
+  </header>
+  <main id="main">{% for message in messages %}<div role="status" class="notice {{ message.tags }}">{{ message }}</div>{% endfor %}{% block content %}{% endblock %}</main>
+  <footer>WireGuardian <span>{% translate 'Keyboarded · Logiciel libre' %}</span></footer>
+</div></body></html>

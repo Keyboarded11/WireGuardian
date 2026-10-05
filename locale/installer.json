@@ -1,0 +1,260 @@
+{
+  "\nWireGuardian · Keyboarded\nAssistant d’installation — serveur Debian dédié\n": [
+    "\nWireGuardian · Keyboarded\nInstallation wizard — dedicated Debian server\n",
+    "\nWireGuardian · Keyboarded\nInstallationsassistent — dedizierter Debian-Server\n",
+    "\nWireGuardian · Keyboarded\nAsistente de instalación — servidor Debian dedicado\n",
+    "\nWireGuardian · Keyboarded\nInstallazione guidata — server Debian dedicato\n"
+  ],
+  "Les adresses sont des exemples : indiquez celles de VOTRE réseau.\nUtilisez la console Proxmox/locale pour éviter une coupure SSH.\n": [
+    "Addresses are examples: enter YOUR network’s addresses.\nUse the Proxmox/local console to avoid losing SSH access.\n",
+    "Die Adressen sind Beispiele: Geben Sie die Adressen IHRES Netzwerks an.\nVerwenden Sie die Proxmox-/lokale Konsole, um eine SSH-Unterbrechung zu vermeiden.\n",
+    "Las direcciones son ejemplos: indique las de SU red.\nUse la consola Proxmox/local para evitar perder el acceso SSH.\n",
+    "Gli indirizzi sono esempi: inserisci quelli della TUA rete.\nUsa la console Proxmox/locale per evitare di perdere l’accesso SSH.\n"
+  ],
+  "Adresse IPv4 fixe déjà configurée sur ce serveur": [
+    "Static IPv4 address already configured on this server",
+    "Auf diesem Server bereits konfigurierte feste IPv4-Adresse",
+    "Dirección IPv4 fija ya configurada en este servidor",
+    "Indirizzo IPv4 fisso già configurato sul server"
+  ],
+  "Interface réseau de sortie (ip -br link)": [
+    "Outbound network interface (ip -br link)",
+    "Ausgehende Netzwerkschnittstelle (ip -br link)",
+    "Interfaz de red de salida (ip -br link)",
+    "Interfaccia di rete in uscita (ip -br link)"
+  ],
+  "Réseaux LAN accessibles, séparés par des virgules": [
+    "Accessible LAN networks, comma-separated",
+    "Erreichbare LAN-Netzwerke, durch Kommas getrennt",
+    "Redes LAN accesibles, separadas por comas",
+    "Reti LAN accessibili, separate da virgole"
+  ],
+  "Réseaux autorisés à administrer HTTPS et SSH": [
+    "Networks allowed to administer over HTTPS and SSH",
+    "Für HTTPS- und SSH-Verwaltung zugelassene Netzwerke",
+    "Redes autorizadas para administrar por HTTPS y SSH",
+    "Reti autorizzate all’amministrazione tramite HTTPS e SSH"
+  ],
+  "Sous-réseau VPN, distinct de tous les LAN": [
+    "VPN subnet, separate from every LAN",
+    "VPN-Subnetz, getrennt von allen LANs",
+    "Subred VPN, distinta de todas las LAN",
+    "Sottorete VPN, distinta da tutte le LAN"
+  ],
+  "Adresse du serveur dans ce VPN": [
+    "Server address within this VPN",
+    "Serveradresse in diesem VPN",
+    "Dirección del servidor dentro de esta VPN",
+    "Indirizzo del server nella VPN"
+  ],
+  "Port SSH ACTUEL à préserver": [
+    "CURRENT SSH port to preserve",
+    "Beizubehaltender AKTUELLER SSH-Port",
+    "Puerto SSH ACTUAL que se conservará",
+    "Porta SSH ATTUALE da mantenere"
+  ],
+  "Nom DNS public ou IPv4 publique (modifiable ensuite)": [
+    "Public DNS name or public IPv4 address (can be changed later)",
+    "Öffentlicher DNS-Name oder IPv4-Adresse (später änderbar)",
+    "Nombre DNS o IPv4 pública (se puede cambiar después)",
+    "Nome DNS o IPv4 pubblica (modificabile in seguito)"
+  ],
+  "DNS IPv4 des profils (vide = conserver le DNS client) : ": [
+    "IPv4 DNS for profiles (empty = keep client DNS): ",
+    "IPv4-DNS für Profile (leer = Client-DNS beibehalten): ",
+    "DNS IPv4 de los perfiles (vacío = conservar DNS del cliente): ",
+    "DNS IPv4 dei profili (vuoto = mantieni DNS del client): "
+  ],
+  "Nom du premier administrateur": [
+    "First administrator’s username",
+    "Benutzername des ersten Administrators",
+    "Nombre del primer administrador",
+    "Nome del primo amministratore"
+  ],
+  "Nom utilisateur invalide": [
+    "Invalid username",
+    "Ungültiger Benutzername",
+    "Nombre de usuario no válido",
+    "Nome utente non valido"
+  ],
+  "Mot de passe administrateur (14 caractères minimum)": [
+    "Administrator password (at least 14 characters)",
+    "Administratorpasswort (mindestens 14 Zeichen)",
+    "Contraseña de administrador (mínimo 14 caracteres)",
+    "Password amministratore (almeno 14 caratteri)"
+  ],
+  "Confirmez le mot de passe": [
+    "Confirm password",
+    "Passwort bestätigen",
+    "Confirme la contraseña",
+    "Conferma la password"
+  ],
+  "Mot de passe trop court ou confirmation différente": [
+    "Password too short or confirmation does not match",
+    "Passwort zu kurz oder Bestätigung stimmt nicht überein",
+    "Contraseña demasiado corta o confirmación diferente",
+    "Password troppo corta o conferma diversa"
+  ],
+  "\nHTTPS : un certificat local sera créé. Importez-le comme certificat de confiance\nou remplacez-le par un certificat de votre PKI. Aucun port HTTP public nécessaire.": [
+    "\nHTTPS: a local certificate will be created. Import it as a trusted certificate\nor replace it with a certificate from your PKI. No public HTTP port is needed.",
+    "\nHTTPS: Ein lokales Zertifikat wird erstellt. Importieren Sie es als vertrauenswürdig\noder ersetzen Sie es durch ein Zertifikat Ihrer PKI. Kein öffentlicher HTTP-Port erforderlich.",
+    "\nHTTPS: se creará un certificado local. Impórtelo como certificado de confianza\no sustitúyalo por uno de su PKI. No se necesita un puerto HTTP público.",
+    "\nHTTPS: verrà creato un certificato locale. Importalo come certificato attendibile\no sostituiscilo con un certificato della tua PKI. Non serve una porta HTTP pubblica."
+  ],
+  "Activer les mises à jour de sécurité Debian automatiques ? y/n": [
+    "Enable automatic Debian security updates? y/n",
+    "Automatische Debian-Sicherheitsupdates aktivieren? y/n",
+    "¿Activar actualizaciones automáticas de seguridad de Debian? y/n",
+    "Attivare gli aggiornamenti automatici di sicurezza Debian? y/n"
+  ],
+  "URL HTTPS du manifeste de mises à jour applicatives signées (vide si pas encore publié) : ": [
+    "HTTPS URL of the signed app release manifest (empty if not published yet): ",
+    "HTTPS-URL des signierten App-Release-Manifests (leer, falls noch nicht veröffentlicht): ",
+    "URL HTTPS del manifiesto de versiones firmadas (vacío si aún no se ha publicado): ",
+    "URL HTTPS del manifesto delle versioni firmate (vuoto se non ancora pubblicato): "
+  ],
+  "Clé publique Ed25519 Base64 de l’éditeur : ": [
+    "Publisher’s Base64 Ed25519 public key: ",
+    "Öffentlicher Ed25519-Schlüssel des Herausgebers in Base64: ",
+    "Clave pública Ed25519 del editor en Base64: ",
+    "Chiave pubblica Ed25519 dell’editore in Base64: "
+  ],
+  "Source de mises à jour ou clé invalide": [
+    "Invalid update source or key",
+    "Ungültige Updatequelle oder ungültiger Schlüssel",
+    "Fuente de actualizaciones o clave no válida",
+    "Fonte aggiornamenti o chiave non valida"
+  ],
+  "\nRÉCAPITULATIF\n": [
+    "\nSUMMARY\n",
+    "\nZUSAMMENFASSUNG\n",
+    "\nRESUMEN\n",
+    "\nRIEPILOGO\n"
+  ],
+  "\nInstallation des dépendances, création des services, HTTPS privé et pare-feu.\nLes entrées non autorisées et le transfert hors VPN seront bloqués.\nAucune modification de l’adresse IP du serveur ni de la configuration SSH.\nAucun redémarrage automatique. L’inscription 2FA sera facultative dans la dashboard.": [
+    "\nDependencies, services, private HTTPS and a firewall will be installed.\nUnauthorized inbound connections and forwarding outside the VPN policy will be blocked.\nThe server’s IP address and SSH configuration will not be changed.\nNo automatic reboot. 2FA enrolment will be optional in the dashboard.",
+    "\nAbhängigkeiten, Dienste, privates HTTPS und eine Firewall werden installiert.\nUnerlaubte Eingänge und Weiterleitungen außerhalb der VPN-Richtlinie werden blockiert.\nServer-IP und SSH-Konfiguration werden nicht geändert.\nKein automatischer Neustart. Die 2FA-Einrichtung im Dashboard ist optional.",
+    "\nSe instalarán dependencias, servicios, HTTPS privado y un cortafuegos.\nSe bloquearán entradas no autorizadas y reenvíos fuera de la política VPN.\nNo se cambiarán la IP del servidor ni la configuración SSH.\nSin reinicio automático. La 2FA será opcional en el panel.",
+    "\nSaranno installati dipendenze, servizi, HTTPS privato e firewall.\nIngressi non autorizzati e inoltri fuori dai criteri VPN saranno bloccati.\nL’IP del server e la configurazione SSH non saranno modificati.\nNessun riavvio automatico. La 2FA sarà facoltativa nel pannello."
+  ],
+  "Tapez INSTALLER pour appliquer : ": [
+    "Type INSTALLER to apply: ",
+    "Zum Anwenden INSTALLER eingeben: ",
+    "Escriba INSTALLER para aplicar: ",
+    "Digita INSTALLER per applicare: "
+  ],
+  "Installation annulée.": [
+    "Installation cancelled.",
+    "Installation abgebrochen.",
+    "Instalación cancelada.",
+    "Installazione annullata."
+  ],
+  "Init {value0} non pris en charge : systemd, SysV ou runit requis.": [
+    "Unsupported init {value0}: systemd, SysV or runit required.",
+    "Init {value0} nicht unterstützt: systemd, SysV oder runit erforderlich.",
+    "Init {value0} no compatible: se requiere systemd, SysV o runit.",
+    "Init {value0} non supportato: serve systemd, SysV o runit."
+  ],
+  "Installation existante détectée. Aucun écrasement : utilisez la maintenance ou la restauration.": [
+    "Existing installation detected. Nothing will be overwritten: use maintenance or restore.",
+    "Bestehende Installation erkannt. Kein Überschreiben: Verwenden Sie Wartung oder Wiederherstellung.",
+    "Instalación existente detectada. No se sobrescribirá: use mantenimiento o restauración.",
+    "Installazione esistente rilevata. Nessuna sovrascrittura: usa manutenzione o ripristino."
+  ],
+  "wg0 existe déjà. Serveur dédié requis.": [
+    "wg0 already exists. A dedicated server is required.",
+    "wg0 existiert bereits. Ein dedizierter Server ist erforderlich.",
+    "wg0 ya existe. Se requiere un servidor dedicado.",
+    "wg0 esiste già. Serve un server dedicato."
+  ],
+  "Adresse d’administration absente de l’interface choisie. Configurez une IP fixe avant installation.": [
+    "The administration address is missing from the selected interface. Set a static IP before installing.",
+    "Die Verwaltungsadresse fehlt auf der gewählten Schnittstelle. Konfigurieren Sie vor der Installation eine feste IP.",
+    "La dirección de administración no está en la interfaz elegida. Configure una IP fija antes de instalar.",
+    "L’indirizzo di amministrazione non è sull’interfaccia scelta. Configura un IP fisso prima dell’installazione."
+  ],
+  "Votre connexion SSH actuelle serait bloquée. Corrigez les réseaux autorisés ou utilisez la console.": [
+    "Your current SSH connection would be blocked. Correct the allowed networks or use the console.",
+    "Ihre aktuelle SSH-Verbindung würde blockiert. Korrigieren Sie die zugelassenen Netzwerke oder verwenden Sie die Konsole.",
+    "Su conexión SSH actual quedaría bloqueada. Corrija las redes permitidas o use la consola.",
+    "La connessione SSH attuale verrebbe bloccata. Correggi le reti autorizzate o usa la console."
+  ],
+  "Le port HTTPS 443 est déjà occupé. Serveur dédié requis.": [
+    "HTTPS port 443 is already in use. A dedicated server is required.",
+    "HTTPS-Port 443 ist bereits belegt. Ein dedizierter Server ist erforderlich.",
+    "El puerto HTTPS 443 ya está ocupado. Se requiere un servidor dedicado.",
+    "La porta HTTPS 443 è già occupata. Serve un server dedicato."
+  ],
+  "Runit détecté mais /etc/service est absent. Configuration manuelle requise.": [
+    "Runit detected but /etc/service is missing. Manual configuration required.",
+    "Runit erkannt, aber /etc/service fehlt. Manuelle Konfiguration erforderlich.",
+    "Se ha detectado runit pero falta /etc/service. Se requiere configuración manual.",
+    "Runit rilevato ma /etc/service è assente. Serve configurazione manuale."
+  ],
+  "Les services ne répondent pas. Inspectez /var/log/keyboarded et les services depuis la console.": [
+    "Services are not responding. Inspect /var/log/keyboarded and the services from the console.",
+    "Die Dienste antworten nicht. Prüfen Sie /var/log/keyboarded und die Dienste über die Konsole.",
+    "Los servicios no responden. Revise /var/log/keyboarded y los servicios desde la consola.",
+    "I servizi non rispondono. Controlla /var/log/keyboarded e i servizi dalla console."
+  ],
+  "\nInstallation terminée : https://{value0}\nImportez /etc/keyboarded/tls.crt sur vos postes d’administration.\nRedirigez uniquement UDP {value1} sur votre routeur.\nVérifiez un redémarrage et un client VPN avant mise en service.\n": [
+    "\nInstallation complete: https://{value0}\nImport /etc/keyboarded/tls.crt on your administration devices.\nForward only UDP {value1} on your router.\nTest a reboot and a VPN client before going live.\n",
+    "\nInstallation abgeschlossen: https://{value0}\nImportieren Sie /etc/keyboarded/tls.crt auf Ihren Verwaltungsgeräten.\nLeiten Sie am Router nur UDP {value1} weiter.\nTesten Sie vor Inbetriebnahme einen Neustart und einen VPN-Client.\n",
+    "\nInstalación completada: https://{value0}\nImporte /etc/keyboarded/tls.crt en sus equipos de administración.\nRedirija solo UDP {value1} en el router.\nPruebe un reinicio y un cliente VPN antes de ponerlo en servicio.\n",
+    "\nInstallazione completata: https://{value0}\nImporta /etc/keyboarded/tls.crt sui dispositivi di amministrazione.\nInoltra solo UDP {value1} sul router.\nVerifica un riavvio e un client VPN prima della messa in servizio.\n"
+  ],
+  "Python >=3.11 requis : Debian 12/13 ou antiX sur une base correspondante.": [
+    "Python >=3.11 required: Debian 12/13 or antiX on a corresponding base.",
+    "Python >=3.11 erforderlich: Debian 12/13 oder antiX auf entsprechender Basis.",
+    "Se requiere Python >=3.11: Debian 12/13 o antiX con una base correspondiente.",
+    "Serve Python >=3.11: Debian 12/13 o antiX su una base corrispondente."
+  ],
+  "Installation à lancer en root sur Debian/antiX.": [
+    "Run the installer as root on Debian/antiX.",
+    "Starten Sie die Installation als root auf Debian/antiX.",
+    "Ejecute el instalador como root en Debian/antiX.",
+    "Esegui l’installazione come root su Debian/antiX."
+  ],
+  "Installation arrêtée : {value0}. Consultez la console ; aucun nettoyage destructif automatique.": [
+    "Installation stopped: {value0}. Check the console; no automatic destructive cleanup.",
+    "Installation angehalten: {value0}. Prüfen Sie die Konsole; keine automatische destruktive Bereinigung.",
+    "Instalación detenida: {value0}. Consulte la consola; no se realiza limpieza destructiva automática.",
+    "Installazione interrotta: {value0}. Consulta la console; nessuna pulizia distruttiva automatica."
+  ],
+  "Saisie invalide. Vérifiez le format et recommencez.": [
+    "Invalid input. Check the format and try again.",
+    "Ungültige Eingabe. Prüfen Sie das Format und versuchen Sie es erneut.",
+    "Entrada no válida. Comprueba el formato e inténtalo de nuevo.",
+    "Valore non valido. Controlla il formato e riprova."
+  ],
+  "1/4 — Réseau : les suggestions proviennent uniquement de ce serveur.": [
+    "1/4 — Network: suggestions come only from this server.",
+    "1/4 — Netzwerk: Vorschläge stammen nur von diesem Server.",
+    "1/4 — Red: las sugerencias proceden únicamente de este servidor.",
+    "1/4 — Rete: i suggerimenti provengono solo da questo server."
+  ],
+  "2/4 — Compte : aucun identifiant ni mot de passe prédéfini.": [
+    "2/4 — Account: no preset username or password.",
+    "2/4 — Konto: kein voreingestellter Benutzername oder Passwort.",
+    "2/4 — Cuenta: sin usuario ni contraseña predefinidos.",
+    "2/4 — Account: nessun nome utente o password predefinito."
+  ],
+  "3/4 — Maintenance : correctifs Debian et publications signées.": [
+    "3/4 — Maintenance: Debian patches and signed releases.",
+    "3/4 — Wartung: Debian-Updates und signierte Veröffentlichungen.",
+    "3/4 — Mantenimiento: parches de Debian y versiones firmadas.",
+    "3/4 — Manutenzione: aggiornamenti Debian e versioni firmate."
+  ],
+  "4/4 — Vérifiez : IP fixe ou réservation DHCP, accès console et serveur dédié.": [
+    "4/4 — Check: static IP or DHCP reservation, console access and dedicated server.",
+    "4/4 — Prüfen: feste IP oder DHCP-Reservierung, Konsolenzugriff und dedizierter Server.",
+    "4/4 — Comprueba: IP fija o reserva DHCP, acceso a consola y servidor dedicado.",
+    "4/4 — Verifica: IP statico o prenotazione DHCP, accesso alla console e server dedicato."
+  ],
+  "Ces prérequis sont-ils assurés ? y/n": [
+    "Are these prerequisites met? y/n",
+    "Sind diese Voraussetzungen erfüllt? y/n",
+    "¿Se cumplen estos requisitos? y/n",
+    "Questi prerequisiti sono soddisfatti? y/n"
+  ]
+}

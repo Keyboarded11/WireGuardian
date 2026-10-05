@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>WireGuardian</title>
+  <path d="M12 15 32 6l20 9v22c0 10-11 17-20 22-9-5-20-12-20-22V15Z" stroke="#a4a8ff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="m21 22 5 18 6-12 6 12 5-18M12 22h9m22 0h9" stroke="#fff" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter"/>
+</svg>

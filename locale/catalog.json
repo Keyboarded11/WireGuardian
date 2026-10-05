@@ -1,0 +1,1586 @@
+{
+  "2FA": [
+    "2FA",
+    "2FA",
+    "2FA",
+    "2FA"
+  ],
+  "2FA désactivée": [
+    "2FA disabled",
+    "2FA deaktiviert",
+    "2FA desactivada",
+    "2FA disattivata"
+  ],
+  "ADMINISTRATION": [
+    "ADMINISTRATION",
+    "ADMINISTRATION",
+    "ADMINISTRACIÓN",
+    "AMMINISTRAZIONE"
+  ],
+  "GESTION": [
+    "MANAGEMENT",
+    "VERWALTUNG",
+    "GESTIÓN",
+    "GESTIONE"
+  ],
+  "Accès": [
+    "Access",
+    "Zugriff",
+    "Acceso",
+    "Accesso"
+  ],
+  "Accès LAN & VPN": [
+    "LAN & VPN access",
+    "LAN- & VPN-Zugriff",
+    "Acceso LAN y VPN",
+    "Accesso LAN e VPN"
+  ],
+  "Accès réservé aux administrateurs.": [
+    "Administrators only.",
+    "Nur für Administratoren.",
+    "Solo para administradores.",
+    "Solo per amministratori."
+  ],
+  "Accès souhaité": [
+    "Configured access",
+    "Konfigurierter Zugriff",
+    "Acceso configurado",
+    "Accesso configurato"
+  ],
+  "Accès utilisateur modifié": [
+    "User access changed",
+    "Benutzerzugriff geändert",
+    "Acceso de usuario modificado",
+    "Accesso utente modificato"
+  ],
+  "Actif": [
+    "Active",
+    "Aktiv",
+    "Activo",
+    "Attivo"
+  ],
+  "Action": [
+    "Action",
+    "Aktion",
+    "Acción",
+    "Azione"
+  ],
+  "Action inconnue": [
+    "Unknown action",
+    "Unbekannte Aktion",
+    "Acción desconocida",
+    "Azione sconosciuta"
+  ],
+  "Action invalide": [
+    "Invalid action",
+    "Ungültige Aktion",
+    "Acción no válida",
+    "Azione non valida"
+  ],
+  "Actions": [
+    "Actions",
+    "Aktionen",
+    "Acciones",
+    "Azioni"
+  ],
+  "Activer la 2FA": [
+    "Enable 2FA",
+    "2FA aktivieren",
+    "Activar 2FA",
+    "Attiva 2FA"
+  ],
+  "Actualiser le suivi": [
+    "Refresh status",
+    "Status aktualisieren",
+    "Actualizar estado",
+    "Aggiorna stato"
+  ],
+  "Administrateur": [
+    "Administrator",
+    "Administrator",
+    "Administrador",
+    "Amministratore"
+  ],
+  "Administration": [
+    "Administration",
+    "Administration",
+    "Administración",
+    "Amministrazione"
+  ],
+  "Administration WireGuard": [
+    "WireGuard administration",
+    "WireGuard-Verwaltung",
+    "Administración de WireGuard",
+    "Amministrazione WireGuard"
+  ],
+  "Administration privée": [
+    "Private administration",
+    "Private Verwaltung",
+    "Administración privada",
+    "Amministrazione privata"
+  ],
+  "Adresse IP publique ou nom DNS": [
+    "Public IP address or DNS name",
+    "Öffentliche IP-Adresse oder DNS-Name",
+    "Dirección IP pública o nombre DNS",
+    "Indirizzo IP pubblico o nome DNS"
+  ],
+  "Adresse VPN": [
+    "VPN address",
+    "VPN-Adresse",
+    "Dirección VPN",
+    "Indirizzo VPN"
+  ],
+  "Adresse publique": [
+    "Public address",
+    "Öffentliche Adresse",
+    "Dirección pública",
+    "Indirizzo pubblico"
+  ],
+  "Ajouter un appareil": [
+    "Add device",
+    "Gerät hinzufügen",
+    "Añadir dispositivo",
+    "Aggiungi dispositivo"
+  ],
+  "Ajouter un appareil →": [
+    "Add device →",
+    "Gerät hinzufügen →",
+    "Añadir dispositivo →",
+    "Aggiungi dispositivo →"
+  ],
+  "Ajoutez une vérification par application d’authentification à votre mot de passe.": [
+    "Add an authenticator app verification to your password.",
+    "Ergänzen Sie Ihr Passwort durch eine Prüfung mit einer Authenticator-App.",
+    "Añada una verificación con una aplicación de autenticación a su contraseña.",
+    "Aggiungi una verifica tramite app di autenticazione alla password."
+  ],
+  "Ajoutez votre premier appareil pour créer son profil WireGuard.": [
+    "Add your first device to create its WireGuard profile.",
+    "Fügen Sie Ihr erstes Gerät hinzu, um sein WireGuard-Profil zu erstellen.",
+    "Añada su primer dispositivo para crear su perfil WireGuard.",
+    "Aggiungi il primo dispositivo per creare il suo profilo WireGuard."
+  ],
+  "Aller au contenu": [
+    "Skip to content",
+    "Zum Inhalt springen",
+    "Ir al contenido",
+    "Vai al contenuto"
+  ],
+  "AllowedIPs — section [Peer]": [
+    "AllowedIPs — [Peer] section",
+    "AllowedIPs — Abschnitt [Peer]",
+    "AllowedIPs — sección [Peer]",
+    "AllowedIPs — sezione [Peer]"
+  ],
+  "Appareil": [
+    "Device",
+    "Gerät",
+    "Dispositivo",
+    "Dispositivo"
+  ],
+  "Appareil créé": [
+    "Device created",
+    "Gerät erstellt",
+    "Dispositivo creado",
+    "Dispositivo creato"
+  ],
+  "Appareil perdu ?": [
+    "Lost your device?",
+    "Gerät verloren?",
+    "¿Ha perdido su dispositivo?",
+    "Dispositivo smarrito?"
+  ],
+  "Appareil supprimé": [
+    "Device deleted",
+    "Gerät gelöscht",
+    "Dispositivo eliminado",
+    "Dispositivo eliminato"
+  ],
+  "Appareils": [
+    "Devices",
+    "Geräte",
+    "Dispositivos",
+    "Dispositivi"
+  ],
+  "Appareils configurés": [
+    "Configured devices",
+    "Konfigurierte Geräte",
+    "Dispositivos configurados",
+    "Dispositivi configurati"
+  ],
+  "Appareils, accès et configuration réseau.": [
+    "Devices, access and network configuration.",
+    "Geräte, Zugriffe und Netzwerkkonfiguration.",
+    "Dispositivos, accesos y configuración de red.",
+    "Dispositivi, accessi e configurazione di rete."
+  ],
+  "Appliquer au serveur": [
+    "Apply to server",
+    "Auf Server anwenden",
+    "Aplicar al servidor",
+    "Applica al server"
+  ],
+  "Appliquer les accès enregistrés ? Les appareils désactivés ou supprimés seront déconnectés.": [
+    "Apply the saved access settings? Disabled or deleted devices will be disconnected.",
+    "Gespeicherte Zugriffsregeln anwenden? Deaktivierte oder gelöschte Geräte werden getrennt.",
+    "¿Aplicar los accesos guardados? Se desconectarán los dispositivos desactivados o eliminados.",
+    "Applicare gli accessi salvati? I dispositivi disattivati o eliminati saranno disconnessi."
+  ],
+  "Appliquer les paramètres": [
+    "Apply settings",
+    "Einstellungen anwenden",
+    "Aplicar ajustes",
+    "Applica impostazioni"
+  ],
+  "Aucun appareil configuré.": [
+    "No devices configured.",
+    "Keine Geräte konfiguriert.",
+    "No hay dispositivos configurados.",
+    "Nessun dispositivo configurato."
+  ],
+  "Aucun appareil.": [
+    "No devices.",
+    "Keine Geräte.",
+    "No hay dispositivos.",
+    "Nessun dispositivo."
+  ],
+  "Aucun résultat.": [
+    "No results.",
+    "Keine Ergebnisse.",
+    "Sin resultados.",
+    "Nessun risultato."
+  ],
+  "Aucune action enregistrée.": [
+    "No activity recorded.",
+    "Keine Aktivitäten aufgezeichnet.",
+    "No hay actividad registrada.",
+    "Nessuna attività registrata."
+  ],
+  "Aucune donnée simulée n’est affichée.": [
+    "No simulated data is shown.",
+    "Es werden keine simulierten Daten angezeigt.",
+    "No se muestran datos simulados.",
+    "Non vengono mostrati dati simulati."
+  ],
+  "Aucune opération": [
+    "No operation",
+    "Keine Operation",
+    "Ninguna operación",
+    "Nessuna operazione"
+  ],
+  "Authentification à deux facteurs": [
+    "Two-factor authentication",
+    "Zwei-Faktor-Authentifizierung",
+    "Autenticación de dos factores",
+    "Autenticazione a due fattori"
+  ],
+  "Autorisé": [
+    "Allowed",
+    "Erlaubt",
+    "Permitido",
+    "Consentito"
+  ],
+  "Ce compte ne peut pas être désactivé ici.": [
+    "This account cannot be disabled here.",
+    "Dieses Konto kann hier nicht deaktiviert werden.",
+    "Esta cuenta no se puede desactivar aquí.",
+    "Questo account non può essere disattivato qui."
+  ],
+  "Changements en attente.": [
+    "Pending changes.",
+    "Ausstehende Änderungen.",
+    "Cambios pendientes.",
+    "Modifiche in attesa."
+  ],
+  "Changer de langue": [
+    "Change language",
+    "Sprache ändern",
+    "Cambiar idioma",
+    "Cambia lingua"
+  ],
+  "Changer votre mot de passe": [
+    "Change your password",
+    "Passwort ändern",
+    "Cambiar contraseña",
+    "Cambia password"
+  ],
+  "Choisissez un tunnel fractionné ou complet pour chaque appareil.": [
+    "Choose split or full tunnel for each device.",
+    "Wählen Sie für jedes Gerät einen Split- oder Volltunnel.",
+    "Elija un túnel dividido o completo para cada dispositivo.",
+    "Scegli un tunnel diviso o completo per ogni dispositivo."
+  ],
+  "Code de l’application": [
+    "Authenticator code",
+    "Authenticator-Code",
+    "Código de la aplicación",
+    "Codice dell’app"
+  ],
+  "Code de sécurité": [
+    "Security code",
+    "Sicherheitscode",
+    "Código de seguridad",
+    "Codice di sicurezza"
+  ],
+  "Code invalide, déjà utilisé ou temporairement bloqué.": [
+    "Code invalid, already used or temporarily blocked.",
+    "Code ungültig, bereits verwendet oder vorübergehend gesperrt.",
+    "Código no válido, ya utilizado o bloqueado temporalmente.",
+    "Codice non valido, già utilizzato o temporaneamente bloccato."
+  ],
+  "Complet": [
+    "Full",
+    "Volltunnel",
+    "Completo",
+    "Completo"
+  ],
+  "Composant": [
+    "Component",
+    "Komponente",
+    "Componente",
+    "Componente"
+  ],
+  "Compte créé. La double authentification est disponible dans Sécurité.": [
+    "Account created. Two-factor authentication is available under Security.",
+    "Konto erstellt. Zwei-Faktor-Authentifizierung ist unter Sicherheit verfügbar.",
+    "Cuenta creada. La autenticación de dos factores está disponible en Seguridad.",
+    "Account creato. L’autenticazione a due fattori è disponibile in Sicurezza."
+  ],
+  "Compte protégé": [
+    "Protected account",
+    "Geschütztes Konto",
+    "Cuenta protegida",
+    "Account protetto"
+  ],
+  "Comptes, 2FA, configuration, clé du serveur et appareils. L’archive est chiffrée avec votre phrase secrète.": [
+    "Accounts, 2FA, settings, server key and devices. The archive is encrypted with your passphrase.",
+    "Konten, 2FA, Konfiguration, Serverschlüssel und Geräte. Das Archiv wird mit Ihrer Passphrase verschlüsselt.",
+    "Cuentas, 2FA, configuración, clave del servidor y dispositivos. El archivo se cifra con su frase secreta.",
+    "Account, 2FA, configurazione, chiave del server e dispositivi. L’archivio è cifrato con la tua passphrase."
+  ],
+  "Configuration WireGuard appliquée": [
+    "WireGuard configuration applied",
+    "WireGuard-Konfiguration angewendet",
+    "Configuración WireGuard aplicada",
+    "Configurazione WireGuard applicata"
+  ],
+  "Configuration appliquée au tunnel WireGuard.": [
+    "Configuration applied to the WireGuard tunnel.",
+    "Konfiguration auf den WireGuard-Tunnel angewendet.",
+    "Configuración aplicada al túnel WireGuard.",
+    "Configurazione applicata al tunnel WireGuard."
+  ],
+  "Configuration du client": [
+    "Client configuration",
+    "Clientkonfiguration",
+    "Configuración del cliente",
+    "Configurazione del client"
+  ],
+  "Configuration du serveur": [
+    "Server configuration",
+    "Serverkonfiguration",
+    "Configuración del servidor",
+    "Configurazione del server"
+  ],
+  "Configurer manuellement": [
+    "Set up manually",
+    "Manuell einrichten",
+    "Configurar manualmente",
+    "Configura manualmente"
+  ],
+  "Configurez un DNS dans Réseau avant de créer un profil en tunnel complet.": [
+    "Set a DNS server under Network before creating a full-tunnel profile.",
+    "Legen Sie unter Netzwerk einen DNS-Server fest, bevor Sie ein Volltunnel-Profil erstellen.",
+    "Configure un DNS en Red antes de crear un perfil de túnel completo.",
+    "Configura un DNS in Rete prima di creare un profilo con tunnel completo."
+  ],
+  "Configurez un DNS dans Réseau avant d’activer un tunnel complet.": [
+    "Set a DNS server under Network before enabling a full tunnel.",
+    "Legen Sie unter Netzwerk einen DNS-Server fest, bevor Sie einen Volltunnel aktivieren.",
+    "Configure un DNS en Red antes de activar un túnel completo.",
+    "Configura un DNS in Rete prima di attivare un tunnel completo."
+  ],
+  "Confirmez la phrase": [
+    "Confirm passphrase",
+    "Passphrase bestätigen",
+    "Confirme la frase secreta",
+    "Conferma la passphrase"
+  ],
+  "Confirmez votre mot de passe": [
+    "Confirm your password",
+    "Passwort bestätigen",
+    "Confirme su contraseña",
+    "Conferma la password"
+  ],
+  "Confirmez votre mot de passe administrateur": [
+    "Confirm your administrator password",
+    "Administratorpasswort bestätigen",
+    "Confirme su contraseña de administrador",
+    "Conferma la password di amministratore"
+  ],
+  "Confirmez votre mot de passe pour modifier le réseau.": [
+    "Confirm your password to change network settings.",
+    "Bestätigen Sie Ihr Passwort, um das Netzwerk zu ändern.",
+    "Confirme su contraseña para modificar la red.",
+    "Conferma la password per modificare la rete."
+  ],
+  "Connectez-vous au serveur.": [
+    "Sign in to the server.",
+    "Melden Sie sich am Server an.",
+    "Inicie sesión en el servidor.",
+    "Accedi al server."
+  ],
+  "Connexion": [
+    "Sign in",
+    "Anmeldung",
+    "Iniciar sesión",
+    "Accesso"
+  ],
+  "Connexion avec 2FA": [
+    "Signed in with 2FA",
+    "Anmeldung mit 2FA",
+    "Inicio de sesión con 2FA",
+    "Accesso con 2FA"
+  ],
+  "Connexion par mot de passe": [
+    "Signed in with password",
+    "Anmeldung mit Passwort",
+    "Inicio de sesión con contraseña",
+    "Accesso con password"
+  ],
+  "Connexion refusée": [
+    "Sign-in rejected",
+    "Anmeldung abgelehnt",
+    "Inicio de sesión rechazado",
+    "Accesso rifiutato"
+  ],
+  "Connexion · WireGuardian": [
+    "Sign in · WireGuardian",
+    "Anmeldung · WireGuardian",
+    "Iniciar sesión · WireGuardian",
+    "Accesso · WireGuardian"
+  ],
+  "Connexions et changements de configuration. Aucun secret dans le journal.": [
+    "Sign-ins and configuration changes. No secrets are stored in the log.",
+    "Anmeldungen und Konfigurationsänderungen. Keine Geheimnisse im Protokoll.",
+    "Inicios de sesión y cambios de configuración. No se guardan secretos en el registro.",
+    "Accessi e modifiche alla configurazione. Nessun segreto nel registro."
+  ],
+  "Connexions récentes": [
+    "Recent connections",
+    "Letzte Verbindungen",
+    "Conexiones recientes",
+    "Connessioni recenti"
+  ],
+  "Conservez la clé privée déjà présente dans le client. Après modification, désactivez et réactivez le tunnel. Le serveur doit également recevoir les changements via « Appliquer au serveur ».": [
+    "Keep the existing private key on the client. After editing, turn the tunnel off and on again. Also send the changes to the server using “Apply to server”.",
+    "Behalten Sie den privaten Schlüssel auf dem Client. Deaktivieren und aktivieren Sie den Tunnel nach der Änderung. Übertragen Sie die Änderungen auch mit „Auf Server anwenden“.",
+    "Conserve la clave privada del cliente. Tras los cambios, desactive y reactive el túnel. Envíe también los cambios al servidor con «Aplicar al servidor».",
+    "Conserva la chiave privata del client. Dopo la modifica, disattiva e riattiva il tunnel. Invia le modifiche anche al server con «Applica al server»."
+  ],
+  "Conservez votre phrase hors du serveur : elle n’est pas enregistrée. Une sauvegarde complète remplace la précédente. La restauration s’effectue depuis la console avec restore.py.": [
+    "Keep your passphrase outside the server: it is not saved. A completed backup replaces the previous one. Restore from the console using restore.py.",
+    "Bewahren Sie die Passphrase außerhalb des Servers auf: Sie wird nicht gespeichert. Eine vollständige Sicherung ersetzt die vorherige. Wiederherstellung über die Konsole mit restore.py.",
+    "Guarde la frase secreta fuera del servidor: no se almacena. Cada copia completa reemplaza la anterior. La restauración se realiza desde la consola con restore.py.",
+    "Conserva la passphrase fuori dal server: non viene salvata. Un backup completo sostituisce il precedente. Il ripristino si esegue dalla console con restore.py."
+  ],
+  "Conservé sur le client": [
+    "Kept on the client",
+    "Auf dem Client beibehalten",
+    "Conservado en el cliente",
+    "Mantenuto sul client"
+  ],
+  "Contactez l’administrateur du serveur. La récupération s’effectue depuis sa console locale.": [
+    "Contact the server administrator. Access is recovered from the server’s local console.",
+    "Wenden Sie sich an den Serveradministrator. Der Zugriff wird über die lokale Konsole wiederhergestellt.",
+    "Contacte con el administrador del servidor. El acceso se recupera desde la consola local.",
+    "Contatta l’amministratore del server. Il recupero avviene dalla console locale."
+  ],
+  "Création": [
+    "Created",
+    "Erstellt",
+    "Creación",
+    "Creazione"
+  ],
+  "Créer un utilisateur": [
+    "Create user",
+    "Benutzer erstellen",
+    "Crear usuario",
+    "Crea utente"
+  ],
+  "Créer une sauvegarde chiffrée": [
+    "Create encrypted backup",
+    "Verschlüsselte Sicherung erstellen",
+    "Crear copia cifrada",
+    "Crea backup cifrato"
+  ],
+  "Créez un profil et choisissez son mode de routage.": [
+    "Create a profile and choose its routing mode.",
+    "Erstellen Sie ein Profil und wählen Sie den Routingmodus.",
+    "Cree un perfil y elija su modo de enrutamiento.",
+    "Crea un profilo e scegli la modalità di instradamento."
+  ],
+  "Créez un profil pour connecter un ordinateur ou un téléphone à votre réseau.": [
+    "Create a profile to connect a computer or phone to your network.",
+    "Erstellen Sie ein Profil, um einen Computer oder ein Telefon mit Ihrem Netzwerk zu verbinden.",
+    "Cree un perfil para conectar un ordenador o teléfono a su red.",
+    "Crea un profilo per collegare un computer o un telefono alla rete."
+  ],
+  "DNS des profils clients": [
+    "DNS for client profiles",
+    "DNS für Clientprofile",
+    "DNS de los perfiles de cliente",
+    "DNS dei profili client"
+  ],
+  "DNS du profil": [
+    "Profile DNS",
+    "Profil-DNS",
+    "DNS del perfil",
+    "DNS del profilo"
+  ],
+  "DNS — section [Interface]": [
+    "DNS — [Interface] section",
+    "DNS — Abschnitt [Interface]",
+    "DNS — sección [Interface]",
+    "DNS — sezione [Interface]"
+  ],
+  "Date": [
+    "Date",
+    "Datum",
+    "Fecha",
+    "Data"
+  ],
+  "Demande transmise. Actualisez le suivi pour connaître le résultat ; une seule opération peut s’exécuter à la fois.": [
+    "Request submitted. Refresh the status to see the result; only one operation can run at a time.",
+    "Anfrage übermittelt. Aktualisieren Sie den Status, um das Ergebnis zu sehen. Es kann nur eine Operation gleichzeitig laufen.",
+    "Solicitud enviada. Actualice el estado para ver el resultado; solo se puede ejecutar una operación a la vez.",
+    "Richiesta inviata. Aggiorna lo stato per vedere il risultato; può essere eseguita una sola operazione alla volta."
+  ],
+  "Dernière connexion": [
+    "Last sign-in",
+    "Letzte Anmeldung",
+    "Último acceso",
+    "Ultimo accesso"
+  ],
+  "Dernière opération :": [
+    "Last operation:",
+    "Letzte Operation:",
+    "Última operación:",
+    "Ultima operazione:"
+  ],
+  "Dernières actions": [
+    "Recent activity",
+    "Letzte Aktivitäten",
+    "Actividad reciente",
+    "Attività recenti"
+  ],
+  "Des accès personnels, protégés à chaque connexion.": [
+    "Personal account security settings.",
+    "Sicherheitseinstellungen Ihres Kontos.",
+    "Ajustes de seguridad de su cuenta.",
+    "Impostazioni di sicurezza dell’account."
+  ],
+  "Des comptes individuels avec une double authentification facultative.": [
+    "Individual accounts with optional two-factor authentication.",
+    "Persönliche Konten mit optionaler Zwei-Faktor-Authentifizierung.",
+    "Cuentas individuales con autenticación de dos factores opcional.",
+    "Account individuali con autenticazione a due fattori facoltativa."
+  ],
+  "Double authentification désactivée.": [
+    "Two-factor authentication disabled.",
+    "Zwei-Faktor-Authentifizierung deaktiviert.",
+    "Autenticación de dos factores desactivada.",
+    "Autenticazione a due fattori disattivata."
+  ],
+  "Durée des sessions": [
+    "Session duration",
+    "Sitzungsdauer",
+    "Duración de las sesiones",
+    "Durata delle sessioni"
+  ],
+  "Déconnexion après 30 minutes d’inactivité. Nouvelle authentification après 8 heures au maximum.": [
+    "Signed out after 30 minutes of inactivity. Reauthentication required after a maximum of 8 hours.",
+    "Abmeldung nach 30 Minuten Inaktivität. Erneute Anmeldung spätestens nach 8 Stunden.",
+    "Cierre de sesión tras 30 minutos de inactividad. Nueva autenticación tras un máximo de 8 horas.",
+    "Disconnessione dopo 30 minuti di inattività. Nuova autenticazione dopo un massimo di 8 ore."
+  ],
+  "Désactiver": [
+    "Disable",
+    "Deaktivieren",
+    "Desactivar",
+    "Disattiva"
+  ],
+  "Désactiver la 2FA": [
+    "Disable 2FA",
+    "2FA deaktivieren",
+    "Desactivar 2FA",
+    "Disattiva 2FA"
+  ],
+  "Désactivé": [
+    "Disabled",
+    "Deaktiviert",
+    "Desactivado",
+    "Disattivato"
+  ],
+  "Désactivé : tunnel fractionné, Internet reste direct. Activé : IPv4 via le VPN, IPv6 bloqué dans le tunnel pour éviter une fuite.": [
+    "Off: split tunnel, Internet stays direct. On: IPv4 through the VPN; IPv6 blocked in the tunnel to prevent leaks.",
+    "Aus: Split-Tunnel, Internet bleibt direkt. Ein: IPv4 über VPN, IPv6 wird im Tunnel blockiert, um Datenlecks zu verhindern.",
+    "Desactivado: túnel dividido, Internet directo. Activado: IPv4 por VPN e IPv6 bloqueado en el túnel para evitar fugas.",
+    "Disattivato: tunnel diviso, Internet diretto. Attivato: IPv4 tramite VPN, IPv6 bloccato nel tunnel per evitare fughe."
+  ],
+  "Détail": [
+    "Details",
+    "Details",
+    "Detalle",
+    "Dettagli"
+  ],
+  "En cours": [
+    "Running",
+    "Läuft",
+    "En curso",
+    "In corso"
+  ],
+  "En service": [
+    "Running",
+    "In Betrieb",
+    "En servicio",
+    "In servizio"
+  ],
+  "Endpoint — section [Peer]": [
+    "Endpoint — [Peer] section",
+    "Endpoint — Abschnitt [Peer]",
+    "Endpoint — sección [Peer]",
+    "Endpoint — sezione [Peer]"
+  ],
+  "Enregistrer": [
+    "Save",
+    "Speichern",
+    "Guardar",
+    "Salva"
+  ],
+  "Enregistrer ce changement d’accès ? Il faudra ensuite l’appliquer au serveur.": [
+    "Save this access change? You will then need to apply it to the server.",
+    "Diese Zugriffsänderung speichern? Sie muss anschließend auf den Server angewendet werden.",
+    "¿Guardar este cambio de acceso? Después deberá aplicarlo al servidor.",
+    "Salvare questa modifica di accesso? Dovrai poi applicarla al server."
+  ],
+  "Essayez un autre nom.": [
+    "Try another name.",
+    "Versuchen Sie einen anderen Namen.",
+    "Pruebe otro nombre.",
+    "Prova un altro nome."
+  ],
+  "Fractionné": [
+    "Split",
+    "Split-Tunnel",
+    "Dividido",
+    "Diviso"
+  ],
+  "Gérer et appliquer les accès →": [
+    "Manage and apply access →",
+    "Zugriffe verwalten und anwenden →",
+    "Gestionar y aplicar accesos →",
+    "Gestisci e applica gli accessi →"
+  ],
+  "Handshake de moins de 3 minutes": [
+    "Handshake within the last 3 minutes",
+    "Handshake vor weniger als 3 Minuten",
+    "Handshake en los últimos 3 minutos",
+    "Handshake negli ultimi 3 minuti"
+  ],
+  "IPv4 traverse le serveur. La route IPv6 est dirigée vers le tunnel et bloquée, afin de ne pas sortir directement par IPv6.": [
+    "IPv4 goes through the server. IPv6 is routed into the tunnel and blocked to prevent direct IPv6 traffic.",
+    "IPv4 läuft über den Server. IPv6 wird in den Tunnel geleitet und blockiert, damit kein direkter IPv6-Verkehr entsteht.",
+    "IPv4 pasa por el servidor. IPv6 se dirige al túnel y se bloquea para evitar tráfico IPv6 directo.",
+    "IPv4 passa dal server. IPv6 viene instradato nel tunnel e bloccato per evitare traffico IPv6 diretto."
+  ],
+  "Importez ce fichier dans l’application WireGuard de votre appareil.": [
+    "Import this file into the WireGuard app on your device.",
+    "Importieren Sie diese Datei in die WireGuard-App auf Ihrem Gerät.",
+    "Importe este archivo en la aplicación WireGuard de su dispositivo.",
+    "Importa questo file nell’app WireGuard del dispositivo."
+  ],
+  "Inconnu": [
+    "Unknown",
+    "Unbekannt",
+    "Desconocido",
+    "Sconosciuto"
+  ],
+  "Indicateurs": [
+    "Metrics",
+    "Kennzahlen",
+    "Indicadores",
+    "Indicatori"
+  ],
+  "Indiquez entre 1 et 16 réseaux IPv4 valides.": [
+    "Enter between 1 and 16 valid IPv4 networks.",
+    "Geben Sie 1 bis 16 gültige IPv4-Netzwerke an.",
+    "Indique entre 1 y 16 redes IPv4 válidas.",
+    "Inserisci da 1 a 16 reti IPv4 valide."
+  ],
+  "Indiquez une adresse IPv4 ou un nom DNS valide.": [
+    "Enter a valid IPv4 address or DNS name.",
+    "Geben Sie eine gültige IPv4-Adresse oder einen DNS-Namen an.",
+    "Indique una dirección IPv4 o un nombre DNS válido.",
+    "Inserisci un indirizzo IPv4 o un nome DNS valido."
+  ],
+  "Indisponible": [
+    "Unavailable",
+    "Nicht verfügbar",
+    "No disponible",
+    "Non disponibile"
+  ],
+  "Interface réseau de sortie": [
+    "Outbound network interface",
+    "Ausgehende Netzwerkschnittstelle",
+    "Interfaz de red de salida",
+    "Interfaccia di rete in uscita"
+  ],
+  "Jamais": [
+    "Never",
+    "Nie",
+    "Nunca",
+    "Mai"
+  ],
+  "Journal d’activité": [
+    "Activity log",
+    "Aktivitätsprotokoll",
+    "Registro de actividad",
+    "Registro attività"
+  ],
+  "Keyboarded · Logiciel libre": [
+    "Keyboarded · Open source",
+    "Keyboarded · Open Source",
+    "Keyboarded · Software libre",
+    "Keyboarded · Software libero"
+  ],
+  "La configuration enregistrée diffère de la dernière version appliquée.": [
+    "The saved configuration differs from the last applied version.",
+    "Die gespeicherte Konfiguration unterscheidet sich von der zuletzt angewendeten Version.",
+    "La configuración guardada difiere de la última versión aplicada.",
+    "La configurazione salvata è diversa dall’ultima versione applicata."
+  ],
+  "La double authentification est disponible dans les paramètres du compte.": [
+    "Two-factor authentication is available in account settings.",
+    "Zwei-Faktor-Authentifizierung ist in den Kontoeinstellungen verfügbar.",
+    "La autenticación de dos factores está disponible en los ajustes de la cuenta.",
+    "L’autenticazione a due fattori è disponibile nelle impostazioni dell’account."
+  ],
+  "La phrase de sauvegarde doit contenir 14 caractères minimum et les deux saisies doivent correspondre.": [
+    "The backup passphrase must contain at least 14 characters and both entries must match.",
+    "Die Sicherungspassphrase muss mindestens 14 Zeichen enthalten und beide Eingaben müssen übereinstimmen.",
+    "La frase de la copia debe contener al menos 14 caracteres y ambas entradas deben coincidir.",
+    "La passphrase del backup deve contenere almeno 14 caratteri e le due voci devono coincidere."
+  ],
+  "La récupération s’effectue depuis la console du serveur par un administrateur. Toutes les sessions sont alors invalidées.": [
+    "An administrator can recover access from the server console. All sessions will be invalidated.",
+    "Ein Administrator kann den Zugriff über die Serverkonsole wiederherstellen. Alle Sitzungen werden ungültig.",
+    "Un administrador puede recuperar el acceso desde la consola del servidor. Se invalidarán todas las sesiones.",
+    "Un amministratore può recuperare l’accesso dalla console del server. Tutte le sessioni saranno invalidate."
+  ],
+  "Lancer la mise à jour": [
+    "Start update",
+    "Aktualisierung starten",
+    "Iniciar actualización",
+    "Avvia aggiornamento"
+  ],
+  "Lancer une mise à jour ? Une interruption des services est possible. Assurez-vous de disposer d’une sauvegarde et d’un accès console.": [
+    "Start an update? Services may be interrupted. Make sure you have a backup and console access.",
+    "Aktualisierung starten? Dienste können unterbrochen werden. Stellen Sie sicher, dass eine Sicherung und Konsolenzugriff vorhanden sind.",
+    "¿Iniciar una actualización? Los servicios pueden interrumpirse. Asegúrese de tener una copia y acceso a la consola.",
+    "Avviare un aggiornamento? I servizi potrebbero interrompersi. Assicurati di avere un backup e accesso alla console."
+  ],
+  "Langue": [
+    "Language",
+    "Sprache",
+    "Idioma",
+    "Lingua"
+  ],
+  "Le changement d’adresse du serveur ou du sous-réseau VPN est une migration : utilisez reconfigure.py depuis la console. Les paramètres ci-contre sont modifiables ici.": [
+    "Changing the server address or VPN subnet is a migration: use reconfigure.py from the console. The settings alongside can be changed here.",
+    "Das Ändern der Serveradresse oder des VPN-Subnetzes ist eine Migration: Verwenden Sie reconfigure.py über die Konsole. Die nebenstehenden Einstellungen können Sie hier ändern.",
+    "Cambiar la dirección del servidor o la subred VPN requiere una migración: use reconfigure.py desde la consola. Los demás ajustes se pueden modificar aquí.",
+    "Cambiare l’indirizzo del server o la sottorete VPN richiede una migrazione: usa reconfigure.py dalla console. Le impostazioni a fianco sono modificabili qui."
+  ],
+  "Le nom DNS ou l’adresse publique de votre connexion. Configurez sur votre routeur une redirection UDP du port": [
+    "Your connection’s public DNS name or IP address. On your router, forward UDP port",
+    "Öffentlicher DNS-Name oder IP-Adresse Ihres Anschlusses. Leiten Sie auf Ihrem Router den UDP-Port",
+    "El nombre DNS o la IP pública de su conexión. En el router, redirija el puerto UDP",
+    "Il nome DNS o l’IP pubblico della connessione. Sul router, inoltra la porta UDP"
+  ],
+  "vers ce serveur.": [
+    "to this server.",
+    "an diesen Server weiter.",
+    "a este servidor.",
+    "a questo server."
+  ],
+  "Lecture seule": [
+    "Read only",
+    "Nur lesen",
+    "Solo lectura",
+    "Sola lettura"
+  ],
+  "Les clés privées des clients sont remises une seule fois à la création. Elles ne sont pas conservées par l’application.": [
+    "Client private keys are provided once, at creation. The application does not store them.",
+    "Private Clientschlüssel werden nur einmal bei der Erstellung ausgegeben. Die Anwendung speichert sie nicht.",
+    "Las claves privadas se entregan una sola vez al crear el perfil. La aplicación no las conserva.",
+    "Le chiavi private dei client vengono fornite una sola volta alla creazione. L’applicazione non le conserva."
+  ],
+  "Les mises à jour peuvent interrompre le VPN ou la dashboard. Préparez une sauvegarde et gardez l’accès à la console.": [
+    "Updates may interrupt the VPN or dashboard. Prepare a backup and keep console access available.",
+    "Aktualisierungen können VPN oder Dashboard unterbrechen. Erstellen Sie eine Sicherung und halten Sie den Konsolenzugriff bereit.",
+    "Las actualizaciones pueden interrumpir la VPN o el panel. Prepare una copia y mantenga el acceso a la consola.",
+    "Gli aggiornamenti possono interrompere la VPN o il pannello. Prepara un backup e mantieni l’accesso alla console."
+  ],
+  "Les paramètres de votre installation.": [
+    "Your installation settings.",
+    "Einstellungen Ihrer Installation.",
+    "Ajustes de su instalación.",
+    "Impostazioni dell’installazione."
+  ],
+  "L’application accepte uniquement des publications signées par la clé d’éditeur configurée à l’installation. Sans source de publication configurée, la mise à jour applicative est indisponible. Aucun redémarrage automatique.": [
+    "The app accepts only releases signed by the publisher key configured during installation. App updates are unavailable without a configured release source. No automatic reboot.",
+    "Die Anwendung akzeptiert nur Versionen, die mit dem bei der Installation festgelegten Herausgeberschlüssel signiert sind. Ohne konfigurierte Quelle sind App-Updates nicht verfügbar. Kein automatischer Neustart.",
+    "La aplicación solo acepta versiones firmadas con la clave del editor configurada durante la instalación. Sin una fuente configurada no hay actualizaciones de la aplicación. No se reinicia automáticamente.",
+    "L’app accetta solo versioni firmate con la chiave dell’editore configurata all’installazione. Senza una fonte configurata gli aggiornamenti dell’app non sono disponibili. Nessun riavvio automatico."
+  ],
+  "Maintenance": [
+    "Maintenance",
+    "Wartung",
+    "Mantenimiento",
+    "Manutenzione"
+  ],
+  "Mettez à jour ces champs dans l’application WireGuard de cet appareil.": [
+    "Update these fields in the WireGuard app on this device.",
+    "Aktualisieren Sie diese Felder in der WireGuard-App auf diesem Gerät.",
+    "Actualice estos campos en la aplicación WireGuard del dispositivo.",
+    "Aggiorna questi campi nell’app WireGuard del dispositivo."
+  ],
+  "Mettre à jour": [
+    "Update",
+    "Aktualisieren",
+    "Actualizar",
+    "Aggiorna"
+  ],
+  "Mise à jour applicative demandée": [
+    "App update requested",
+    "App-Update angefordert",
+    "Actualización de aplicación solicitada",
+    "Aggiornamento app richiesto"
+  ],
+  "Mise à jour système demandée": [
+    "System update requested",
+    "Systemaktualisierung angefordert",
+    "Actualización del sistema solicitada",
+    "Aggiornamento sistema richiesto"
+  ],
+  "Mises à jour": [
+    "Updates",
+    "Aktualisierungen",
+    "Actualizaciones",
+    "Aggiornamenti"
+  ],
+  "Mode de routage": [
+    "Routing mode",
+    "Routingmodus",
+    "Modo de enrutamiento",
+    "Modalità di instradamento"
+  ],
+  "Modification enregistrée. Appliquez les changements au serveur. Après un changement de routage, mettez aussi à jour AllowedIPs et DNS sur le client (bouton Profil).": [
+    "Change saved. Apply the changes to the server. After a routing change, also update AllowedIPs and DNS on the client (Profile button).",
+    "Änderung gespeichert. Wenden Sie die Änderungen auf den Server an. Aktualisieren Sie nach einer Routingänderung auch AllowedIPs und DNS auf dem Client (Profil).",
+    "Cambio guardado. Aplíquelo al servidor. Tras un cambio de enrutamiento, actualice también AllowedIPs y DNS en el cliente (botón Perfil).",
+    "Modifica salvata. Applica le modifiche al server. Dopo un cambio di instradamento, aggiorna anche AllowedIPs e DNS sul client (pulsante Profilo)."
+  ],
+  "Modifier l’accès de cet utilisateur ?": [
+    "Change this user’s access?",
+    "Zugriff dieses Benutzers ändern?",
+    "¿Modificar el acceso de este usuario?",
+    "Modificare l’accesso di questo utente?"
+  ],
+  "Mot de passe": [
+    "Password",
+    "Passwort",
+    "Contraseña",
+    "Password"
+  ],
+  "Mot de passe actuel": [
+    "Current password",
+    "Aktuelles Passwort",
+    "Contraseña actual",
+    "Password attuale"
+  ],
+  "Mot de passe administrateur": [
+    "Administrator password",
+    "Administratorpasswort",
+    "Contraseña de administrador",
+    "Password amministratore"
+  ],
+  "Mot de passe incorrect.": [
+    "Incorrect password.",
+    "Falsches Passwort.",
+    "Contraseña incorrecta.",
+    "Password errata."
+  ],
+  "Mot de passe modifié": [
+    "Password changed",
+    "Passwort geändert",
+    "Contraseña modificada",
+    "Password modificata"
+  ],
+  "Mot de passe modifié. Les autres sessions sont invalidées.": [
+    "Password changed. Other sessions have been invalidated.",
+    "Passwort geändert. Andere Sitzungen wurden ungültig gemacht.",
+    "Contraseña modificada. Las demás sesiones se han invalidado.",
+    "Password modificata. Le altre sessioni sono state invalidate."
+  ],
+  "Mot de passe ou code incorrect.": [
+    "Incorrect password or code.",
+    "Falsches Passwort oder falscher Code.",
+    "Contraseña o código incorrectos.",
+    "Password o codice errato."
+  ],
+  "Navigation principale": [
+    "Main navigation",
+    "Hauptnavigation",
+    "Navegación principal",
+    "Navigazione principale"
+  ],
+  "Nom de l’appareil": [
+    "Device name",
+    "Gerätename",
+    "Nombre del dispositivo",
+    "Nome dispositivo"
+  ],
+  "Nom d’utilisateur": [
+    "Username",
+    "Benutzername",
+    "Nombre de usuario",
+    "Nome utente"
+  ],
+  "Ouvrir le journal →": [
+    "Open activity log →",
+    "Protokoll öffnen →",
+    "Abrir registro →",
+    "Apri registro →"
+  ],
+  "Page": [
+    "Page",
+    "Seite",
+    "Página",
+    "Pagina"
+  ],
+  "Par appareil": [
+    "Per device",
+    "Pro Gerät",
+    "Por dispositivo",
+    "Per dispositivo"
+  ],
+  "Paramètres réseau modifiés": [
+    "Network settings changed",
+    "Netzwerkeinstellungen geändert",
+    "Ajustes de red modificados",
+    "Impostazioni di rete modificate"
+  ],
+  "Passer en complet": [
+    "Use full tunnel",
+    "Volltunnel verwenden",
+    "Usar túnel completo",
+    "Usa tunnel completo"
+  ],
+  "Passer en fractionné": [
+    "Use split tunnel",
+    "Split-Tunnel verwenden",
+    "Usar túnel dividido",
+    "Usa tunnel diviso"
+  ],
+  "Phrase de sauvegarde (14 caractères minimum)": [
+    "Backup passphrase (at least 14 characters)",
+    "Sicherungspassphrase (mindestens 14 Zeichen)",
+    "Frase de la copia (mínimo 14 caracteres)",
+    "Passphrase del backup (almeno 14 caratteri)"
+  ],
+  "Point d’entrée public": [
+    "Public endpoint",
+    "Öffentlicher Endpunkt",
+    "Punto de entrada público",
+    "Endpoint pubblico"
+  ],
+  "Politique de routage": [
+    "Routing policy",
+    "Routingrichtlinie",
+    "Política de enrutamiento",
+    "Criteri di instradamento"
+  ],
+  "Port WireGuard UDP": [
+    "WireGuard UDP port",
+    "WireGuard-UDP-Port",
+    "Puerto UDP de WireGuard",
+    "Porta UDP WireGuard"
+  ],
+  "Port d’écoute": [
+    "Listen port",
+    "Empfangsport",
+    "Puerto de escucha",
+    "Porta di ascolto"
+  ],
+  "Profil →": [
+    "Profile →",
+    "Profil →",
+    "Perfil →",
+    "Profilo →"
+  ],
+  "Profils en tunnel complet :": [
+    "Full-tunnel profiles:",
+    "Volltunnel-Profile:",
+    "Perfiles de túnel completo:",
+    "Profili con tunnel completo:"
+  ],
+  "Profils enregistrés sur ce serveur": [
+    "Profiles saved on this server",
+    "Auf diesem Server gespeicherte Profile",
+    "Perfiles guardados en este servidor",
+    "Profili salvati su questo server"
+  ],
+  "Profils et autorisations des appareils.": [
+    "Device profiles and permissions.",
+    "Geräteprofile und Berechtigungen.",
+    "Perfiles y permisos de los dispositivos.",
+    "Profili e autorizzazioni dei dispositivi."
+  ],
+  "Protégez votre compte.": [
+    "Set up two-factor authentication.",
+    "Zwei-Faktor-Authentifizierung einrichten.",
+    "Configure la autenticación de dos factores.",
+    "Configura l’autenticazione a due fattori."
+  ],
+  "QR code d’inscription TOTP": [
+    "TOTP enrolment QR code",
+    "QR-Code zur TOTP-Einrichtung",
+    "Código QR de registro TOTP",
+    "Codice QR di registrazione TOTP"
+  ],
+  "Rechercher": [
+    "Search",
+    "Suchen",
+    "Buscar",
+    "Cerca"
+  ],
+  "Rechercher un appareil": [
+    "Search devices",
+    "Gerät suchen",
+    "Buscar dispositivo",
+    "Cerca dispositivo"
+  ],
+  "Rechercher un appareil…": [
+    "Search devices…",
+    "Gerät suchen…",
+    "Buscar dispositivo…",
+    "Cerca dispositivo…"
+  ],
+  "Renseignez d’abord l’adresse publique dans Réseau.": [
+    "First enter the public address under Network.",
+    "Geben Sie zuerst unter Netzwerk die öffentliche Adresse ein.",
+    "Introduzca primero la dirección pública en Red.",
+    "Inserisci prima l’indirizzo pubblico in Rete."
+  ],
+  "Retour à la connexion": [
+    "Back to sign in",
+    "Zurück zur Anmeldung",
+    "Volver al inicio de sesión",
+    "Torna all’accesso"
+  ],
+  "Reçu / envoyé": [
+    "Received / sent",
+    "Empfangen / gesendet",
+    "Recibido / enviado",
+    "Ricevuto / inviato"
+  ],
+  "Routage": [
+    "Routing",
+    "Routing",
+    "Enrutamiento",
+    "Instradamento"
+  ],
+  "Réactiver": [
+    "Reactivate",
+    "Reaktivieren",
+    "Reactivar",
+    "Riattiva"
+  ],
+  "Récent": [
+    "Recent",
+    "Kürzlich",
+    "Reciente",
+    "Recente"
+  ],
+  "Récupérer un accès": [
+    "Recover access",
+    "Zugriff wiederherstellen",
+    "Recuperar acceso",
+    "Recupera accesso"
+  ],
+  "Réseau": [
+    "Network",
+    "Netzwerk",
+    "Red",
+    "Rete"
+  ],
+  "Réseau VPN": [
+    "VPN network",
+    "VPN-Netzwerk",
+    "Red VPN",
+    "Rete VPN"
+  ],
+  "Réseau appliqué. Mettez à jour les profils clients et la redirection du routeur si le port a changé.": [
+    "Network settings applied. Update client profiles and router forwarding if the port changed.",
+    "Netzwerkeinstellungen angewendet. Aktualisieren Sie Clientprofile und Portweiterleitung, falls sich der Port geändert hat.",
+    "Ajustes de red aplicados. Actualice los perfiles y la redirección del router si ha cambiado el puerto.",
+    "Impostazioni di rete applicate. Aggiorna i profili e l’inoltro del router se la porta è cambiata."
+  ],
+  "Réseau local uniquement": [
+    "Local network only",
+    "Nur lokales Netzwerk",
+    "Solo red local",
+    "Solo rete locale"
+  ],
+  "Réseaux LAN": [
+    "LAN networks",
+    "LAN-Netzwerke",
+    "Redes LAN",
+    "Reti LAN"
+  ],
+  "Réseaux locaux": [
+    "Local networks",
+    "Lokale Netzwerke",
+    "Redes locales",
+    "Reti locali"
+  ],
+  "Rôle": [
+    "Role",
+    "Rolle",
+    "Rol",
+    "Ruolo"
+  ],
+  "Saisissez le code de votre application d’authentification.": [
+    "Enter the code from your authenticator app.",
+    "Geben Sie den Code aus Ihrer Authenticator-App ein.",
+    "Introduzca el código de su aplicación de autenticación.",
+    "Inserisci il codice dell’app di autenticazione."
+  ],
+  "Sans handshake récent": [
+    "No recent handshake",
+    "Kein aktueller Handshake",
+    "Sin handshake reciente",
+    "Nessun handshake recente"
+  ],
+  "Sans protocole ni port. Le port est défini à l’installation.": [
+    "Without protocol or port. The port is set during installation.",
+    "Ohne Protokoll oder Port. Der Port wird bei der Installation festgelegt.",
+    "Sin protocolo ni puerto. El puerto se define durante la instalación.",
+    "Senza protocollo né porta. La porta si imposta all’installazione."
+  ],
+  "Sauvegarde demandée": [
+    "Backup requested",
+    "Sicherung angefordert",
+    "Copia solicitada",
+    "Backup richiesto"
+  ],
+  "Sauvegarde téléchargée": [
+    "Backup downloaded",
+    "Sicherung heruntergeladen",
+    "Copia descargada",
+    "Backup scaricato"
+  ],
+  "Sauvegarder la configuration": [
+    "Back up configuration",
+    "Konfiguration sichern",
+    "Guardar copia de configuración",
+    "Backup della configurazione"
+  ],
+  "Sauvegardes chiffrées et mises à jour contrôlées.": [
+    "Encrypted backups and managed updates.",
+    "Verschlüsselte Sicherungen und kontrollierte Aktualisierungen.",
+    "Copias cifradas y actualizaciones controladas.",
+    "Backup cifrati e aggiornamenti controllati."
+  ],
+  "Scannez ce QR code avec votre application d’authentification, puis saisissez son code à 6 chiffres.": [
+    "Scan this QR code with your authenticator app, then enter its 6-digit code.",
+    "Scannen Sie diesen QR-Code mit Ihrer Authenticator-App und geben Sie den 6-stelligen Code ein.",
+    "Escanee este QR con su aplicación de autenticación e introduzca su código de 6 dígitos.",
+    "Scansiona il QR con l’app di autenticazione, poi inserisci il codice a 6 cifre."
+  ],
+  "Se connecter": [
+    "Sign in",
+    "Anmelden",
+    "Iniciar sesión",
+    "Accedi"
+  ],
+  "Se déconnecter": [
+    "Sign out",
+    "Abmelden",
+    "Cerrar sesión",
+    "Esci"
+  ],
+  "Serveur": [
+    "Server",
+    "Server",
+    "Servidor",
+    "Server"
+  ],
+  "Serveur WireGuard": [
+    "WireGuard server",
+    "WireGuard-Server",
+    "Servidor WireGuard",
+    "Server WireGuard"
+  ],
+  "Service WireGuard indisponible ou opération refusée. Consultez les journaux système.": [
+    "WireGuard service unavailable or operation rejected. Check the system logs.",
+    "WireGuard-Dienst nicht verfügbar oder Operation abgelehnt. Prüfen Sie die Systemprotokolle.",
+    "Servicio WireGuard no disponible u operación rechazada. Consulte los registros del sistema.",
+    "Servizio WireGuard non disponibile o operazione rifiutata. Consulta i registri di sistema."
+  ],
+  "Sous-réseau VPN": [
+    "VPN subnet",
+    "VPN-Subnetz",
+    "Subred VPN",
+    "Sottorete VPN"
+  ],
+  "Sous-réseaux IPv4 séparés par des virgules, par exemple 172.20.10.0/24, 172.20.20.0/24.": [
+    "Comma-separated IPv4 subnets, for example 172.20.10.0/24, 172.20.20.0/24.",
+    "Kommagetrennte IPv4-Subnetze, zum Beispiel 172.20.10.0/24, 172.20.20.0/24.",
+    "Subredes IPv4 separadas por comas, por ejemplo 172.20.10.0/24, 172.20.20.0/24.",
+    "Sottoreti IPv4 separate da virgole, ad esempio 172.20.10.0/24, 172.20.20.0/24."
+  ],
+  "Suivant →": [
+    "Next →",
+    "Weiter →",
+    "Siguiente →",
+    "Successivo →"
+  ],
+  "Supprimer": [
+    "Delete",
+    "Löschen",
+    "Eliminar",
+    "Elimina"
+  ],
+  "Supprimer la ligne DNS pour conserver le DNS de l’appareil": [
+    "Remove the DNS line to keep the device’s DNS",
+    "DNS-Zeile entfernen, um den DNS des Geräts beizubehalten",
+    "Elimine la línea DNS para conservar el DNS del dispositivo",
+    "Rimuovi la riga DNS per mantenere il DNS del dispositivo"
+  ],
+  "Suspendre": [
+    "Suspend",
+    "Sperren",
+    "Suspender",
+    "Sospendi"
+  ],
+  "Suspendu": [
+    "Suspended",
+    "Gesperrt",
+    "Suspendido",
+    "Sospeso"
+  ],
+  "Système Debian, WireGuard et dépendances APT": [
+    "Debian system, WireGuard and APT dependencies",
+    "Debian-System, WireGuard und APT-Abhängigkeiten",
+    "Sistema Debian, WireGuard y dependencias APT",
+    "Sistema Debian, WireGuard e dipendenze APT"
+  ],
+  "Sécurité": [
+    "Security",
+    "Sicherheit",
+    "Seguridad",
+    "Sicurezza"
+  ],
+  "Terminée": [
+    "Completed",
+    "Abgeschlossen",
+    "Completada",
+    "Completata"
+  ],
+  "Tout afficher →": [
+    "View all →",
+    "Alle anzeigen →",
+    "Ver todos →",
+    "Mostra tutti →"
+  ],
+  "Toutes les adresses disponibles sont utilisées.": [
+    "All available addresses are in use.",
+    "Alle verfügbaren Adressen sind belegt.",
+    "Todas las direcciones disponibles están en uso.",
+    "Tutti gli indirizzi disponibili sono in uso."
+  ],
+  "Trafic client": [
+    "Client traffic",
+    "Clientverkehr",
+    "Tráfico del cliente",
+    "Traffico client"
+  ],
+  "Transmettez le mot de passe initial par un canal sûr. Aucun compte partagé.": [
+    "Share the initial password through a secure channel. Do not share accounts.",
+    "Übermitteln Sie das erste Passwort über einen sicheren Kanal. Teilen Sie keine Konten.",
+    "Transmita la contraseña inicial por un canal seguro. No comparta cuentas.",
+    "Trasmetti la password iniziale tramite un canale sicuro. Non condividere gli account."
+  ],
+  "Trop de tentatives. Réessayez dans 15 minutes.": [
+    "Too many attempts. Try again in 15 minutes.",
+    "Zu viele Versuche. Versuchen Sie es in 15 Minuten erneut.",
+    "Demasiados intentos. Vuelva a intentarlo en 15 minutos.",
+    "Troppi tentativi. Riprova tra 15 minuti."
+  ],
+  "Tunnel IPv4 complet": [
+    "Full IPv4 tunnel",
+    "IPv4-Volltunnel",
+    "Túnel IPv4 completo",
+    "Tunnel IPv4 completo"
+  ],
+  "Tunnel complet": [
+    "Full tunnel",
+    "Volltunnel",
+    "Túnel completo",
+    "Tunnel completo"
+  ],
+  "Tunnel complet : Internet via le VPN": [
+    "Full tunnel: Internet through the VPN",
+    "Volltunnel: Internet über VPN",
+    "Túnel completo: Internet por la VPN",
+    "Tunnel completo: Internet tramite VPN"
+  ],
+  "Tunnel fractionné": [
+    "Split tunnel",
+    "Split-Tunnel",
+    "Túnel dividido",
+    "Tunnel diviso"
+  ],
+  "Télécharger la dernière sauvegarde": [
+    "Download latest backup",
+    "Letzte Sicherung herunterladen",
+    "Descargar última copia",
+    "Scarica ultimo backup"
+  ],
+  "Télécharger le profil .conf": [
+    "Download .conf profile",
+    ".conf-Profil herunterladen",
+    "Descargar perfil .conf",
+    "Scarica profilo .conf"
+  ],
+  "Téléchargez ce profil maintenant : sa clé privée ne sera plus affichée. Ne le partagez pas. Appliquez ensuite la configuration au serveur depuis Appareils.": [
+    "Download this profile now: its private key will not be shown again. Do not share it. Then apply the configuration to the server from Devices.",
+    "Laden Sie das Profil jetzt herunter: Der private Schlüssel wird nicht erneut angezeigt. Teilen Sie ihn nicht. Wenden Sie danach die Konfiguration unter Geräte auf den Server an.",
+    "Descargue el perfil ahora: su clave privada no volverá a mostrarse. No lo comparta. Después aplique la configuración al servidor desde Dispositivos.",
+    "Scarica il profilo ora: la chiave privata non verrà più mostrata. Non condividerlo. Poi applica la configurazione al server da Dispositivi."
+  ],
+  "Télémétrie indisponible.": [
+    "Telemetry unavailable.",
+    "Telemetrie nicht verfügbar.",
+    "Telemetría no disponible.",
+    "Telemetria non disponibile."
+  ],
+  "Un redémarrage système est nécessaire. Planifiez-le depuis la console.": [
+    "A system reboot is required. Schedule it from the console.",
+    "Ein Systemneustart ist erforderlich. Planen Sie ihn über die Konsole.",
+    "Es necesario reiniciar el sistema. Prográmelo desde la consola.",
+    "È necessario riavviare il sistema. Pianificalo dalla console."
+  ],
+  "Utilisateur": [
+    "User",
+    "Benutzer",
+    "Usuario",
+    "Utente"
+  ],
+  "Utilisateur créé": [
+    "User created",
+    "Benutzer erstellt",
+    "Usuario creado",
+    "Utente creato"
+  ],
+  "Utilisateurs": [
+    "Users",
+    "Benutzer",
+    "Usuarios",
+    "Utenti"
+  ],
+  "Vue d’ensemble": [
+    "Overview",
+    "Übersicht",
+    "Resumen",
+    "Panoramica"
+  ],
+  "Vérification · WireGuardian": [
+    "Verification · WireGuardian",
+    "Verifizierung · WireGuardian",
+    "Verificación · WireGuardian",
+    "Verifica · WireGuardian"
+  ],
+  "Vérifier et accéder": [
+    "Verify and continue",
+    "Prüfen und fortfahren",
+    "Verificar y acceder",
+    "Verifica e accedi"
+  ],
+  "Vérifiez votre identité.": [
+    "Verify your identity.",
+    "Bestätigen Sie Ihre Identität.",
+    "Verifique su identidad.",
+    "Verifica la tua identità."
+  ],
+  "WireGuardian — publication signée": [
+    "WireGuardian — signed release",
+    "WireGuardian — signierte Version",
+    "WireGuardian — versión firmada",
+    "WireGuardian — versione firmata"
+  ],
+  "activée": [
+    "enabled",
+    "aktiviert",
+    "activada",
+    "attivata"
+  ],
+  "anonyme": [
+    "anonymous",
+    "anonym",
+    "anónimo",
+    "anonimo"
+  ],
+  "désactivée": [
+    "disabled",
+    "deaktiviert",
+    "desactivada",
+    "disattivata"
+  ],
+  "À configurer": [
+    "Not configured",
+    "Nicht konfiguriert",
+    "Sin configurar",
+    "Da configurare"
+  ],
+  "À configurer dans Réseau": [
+    "Configure under Network",
+    "Unter Netzwerk konfigurieren",
+    "Configurar en Red",
+    "Configura in Rete"
+  ],
+  "Échec": [
+    "Failed",
+    "Fehlgeschlagen",
+    "Error",
+    "Errore"
+  ],
+  "Échec de l’opération. Consultez les journaux depuis la console.": [
+    "Operation failed. Check the logs from the console.",
+    "Operation fehlgeschlagen. Prüfen Sie die Protokolle über die Konsole.",
+    "La operación ha fallado. Consulte los registros desde la consola.",
+    "Operazione non riuscita. Consulta i registri dalla console."
+  ],
+  "État de l’appareil modifié": [
+    "Device state changed",
+    "Gerätestatus geändert",
+    "Estado del dispositivo modificado",
+    "Stato del dispositivo modificato"
+  ],
+  "État du serveur et des connexions.": [
+    "Server and connection status.",
+    "Server- und Verbindungsstatus.",
+    "Estado del servidor y las conexiones.",
+    "Stato del server e delle connessioni."
+  ],
+  "État observé": [
+    "Observed status",
+    "Beobachteter Status",
+    "Estado observado",
+    "Stato rilevato"
+  ],
+  "← Précédent": [
+    "← Previous",
+    "← Zurück",
+    "← Anterior",
+    "← Precedente"
+  ],
+  "← Retour aux appareils": [
+    "← Back to devices",
+    "← Zurück zu Geräten",
+    "← Volver a dispositivos",
+    "← Torna ai dispositivi"
+  ],
+  "Identifiants incorrects.": [
+    "Incorrect credentials.",
+    "Falsche Zugangsdaten.",
+    "Credenciales incorrectas.",
+    "Credenziali errate."
+  ],
+  "Opération en cours": [
+    "Operation running",
+    "Operation läuft",
+    "Operación en curso",
+    "Operazione in corso"
+  ],
+  "Opération terminée. Vérifiez les services après une mise à jour.": [
+    "Operation completed. Check services after an update.",
+    "Operation abgeschlossen. Prüfen Sie die Dienste nach einer Aktualisierung.",
+    "Operación completada. Compruebe los servicios tras una actualización.",
+    "Operazione completata. Verifica i servizi dopo un aggiornamento."
+  ],
+  "Options": [
+    "Options",
+    "Optionen",
+    "Opciones",
+    "Opzioni"
+  ],
+  "Mot de passe et double authentification": [
+    "Password and two-factor authentication",
+    "Passwort und Zwei-Faktor-Authentifizierung",
+    "Contraseña y autenticación de dos factores",
+    "Password e autenticazione a due fattori"
+  ],
+  "Changer le mot de passe": [
+    "Change password",
+    "Passwort ändern",
+    "Cambiar contraseña",
+    "Modifica password"
+  ],
+  "Confirmez votre mot de passe pour autoriser cette opération": [
+    "Confirm your password to authorize this operation",
+    "Bestätigen Sie Ihr Passwort, um diesen Vorgang zu autorisieren",
+    "Confirma tu contraseña para autorizar esta operación",
+    "Conferma la tua password per autorizzare questa operazione"
+  ],
+  "Compte créé. Gérez son mot de passe et sa 2FA dans ses options.": [
+    "Account created. Manage its password and 2FA in its options.",
+    "Konto erstellt. Verwalten Sie Passwort und 2FA in den Kontooptionen.",
+    "Cuenta creada. Gestiona su contraseña y 2FA en sus opciones.",
+    "Account creato. Gestisci password e 2FA nelle sue opzioni."
+  ],
+  "Chaque utilisateur active sa 2FA depuis les options de son propre compte.": [
+    "Each user enables 2FA in their own account options.",
+    "Jeder Benutzer aktiviert 2FA in seinen eigenen Kontooptionen.",
+    "Cada usuario activa la 2FA en las opciones de su propia cuenta.",
+    "Ogni utente attiva la 2FA nelle opzioni del proprio account."
+  ],
+  "Réinitialiser la 2FA": [
+    "Reset 2FA",
+    "2FA zurücksetzen",
+    "Restablecer 2FA",
+    "Reimposta 2FA"
+  ],
+  "Réinitialiser la 2FA et fermer les sessions de cet utilisateur ?": [
+    "Reset 2FA and close this user’s sessions?",
+    "2FA zurücksetzen und die Sitzungen dieses Benutzers beenden?",
+    "¿Restablecer la 2FA y cerrar las sesiones de este usuario?",
+    "Reimpostare la 2FA e chiudere le sessioni di questo utente?"
+  ],
+  "2FA réinitialisée": [
+    "2FA reset",
+    "2FA zurückgesetzt",
+    "2FA restablecida",
+    "2FA reimpostata"
+  ],
+  "2FA réinitialisée. Cet utilisateur devra la configurer à nouveau.": [
+    "2FA reset. This user will need to set it up again.",
+    "2FA zurückgesetzt. Dieser Benutzer muss sie erneut einrichten.",
+    "2FA restablecida. Este usuario deberá configurarla de nuevo.",
+    "2FA reimpostata. Questo utente dovrà configurarla di nuovo."
+  ]
+}
