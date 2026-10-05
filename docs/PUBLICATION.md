@@ -51,4 +51,4 @@ Ne pas publier une migration incompatible avec les chemins, comptes de service o
 
 ## Avant une version stable
 
-Tester au minimum : installation Debian vierge, redémarrage, restrictions réseau externes, tunnel réel, sauvegarde/restauration et mise à jour signée avec échec et retour arrière. Archiver des résultats expurgés de toute donnée personnelle. Le README doit distinguer ce qui a été vérifié de ce qui reste à faire.
+Tester au minimum : installation Debian vierge, redémarrage, restrictions réseau externes, tunnel réel, sauvegarde/restauration et mise à jour signée avec échec et retour arrière. Archiver des résultats expurgés de toute donnée personnelle. Documenter les changements et les problèmes connus dans les notes de version.
