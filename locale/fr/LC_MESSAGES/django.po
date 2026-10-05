@@ -155,6 +155,9 @@ msgstr "Appareils, accès et configuration réseau."
 msgid "Appliquer au serveur"
 msgstr "Appliquer au serveur"
 
+msgid "Appliquer immédiatement ce changement ?"
+msgstr "Appliquer immédiatement ce changement ?"
+
 msgid "Appliquer les accès enregistrés ? Les appareils désactivés ou supprimés seront déconnectés."
 msgstr "Appliquer les accès enregistrés ? Les appareils désactivés ou supprimés seront déconnectés."
 
@@ -184,6 +187,9 @@ msgstr "Authentification à deux facteurs"
 
 msgid "Autorisé"
 msgstr "Autorisé"
+
+msgid "Ce client existe déjà. Son adresse VPN est conservée."
+msgstr "Ce client existe déjà. Son adresse VPN est conservée."
 
 msgid "Ce compte ne peut pas être désactivé ici."
 msgstr "Ce compte ne peut pas être désactivé ici."
@@ -413,6 +419,9 @@ msgstr "GESTION"
 msgid "Gérer et appliquer les accès →"
 msgstr "Gérer et appliquer les accès →"
 
+msgid "Gérer les appareils →"
+msgstr "Gérer les appareils →"
+
 msgid "Handshake de moins de 3 minutes"
 msgstr "Handshake de moins de 3 minutes"
 
@@ -476,6 +485,12 @@ msgstr "La configuration enregistrée diffère de la dernière version appliqué
 msgid "La double authentification est disponible dans les paramètres du compte."
 msgstr "La double authentification est disponible dans les paramètres du compte."
 
+msgid "La limite de clients est atteinte."
+msgstr "La limite de clients est atteinte."
+
+msgid "La limite doit couvrir les clients existants."
+msgstr "La limite doit couvrir les clients existants."
+
 msgid "La phrase de sauvegarde doit contenir 14 caractères minimum et les deux saisies doivent correspondre."
 msgstr "La phrase de sauvegarde doit contenir 14 caractères minimum et les deux saisies doivent correspondre."
 
@@ -518,6 +533,12 @@ msgstr "Les paramètres de votre installation."
 msgid "Les services ne répondent pas. Inspectez /var/log/keyboarded et les services depuis la console."
 msgstr "Les services ne répondent pas. Inspectez /var/log/keyboarded et les services depuis la console."
 
+msgid "Limite de clients (0 = illimité)"
+msgstr "Limite de clients (0 = illimité)"
+
+msgid "Limite de clients modifiée"
+msgstr "Limite de clients modifiée"
+
 msgid "L’application accepte uniquement des publications signées par la clé d’éditeur configurée à l’installation. Sans source de publication configurée, la mise à jour applicative est indisponible. Aucun redémarrage automatique."
 msgstr "L’application accepte uniquement des publications signées par la clé d’éditeur configurée à l’installation. Sans source de publication configurée, la mise à jour applicative est indisponible. Aucun redémarrage automatique."
 
@@ -541,6 +562,9 @@ msgstr "Mises à jour"
 
 msgid "Mode de routage"
 msgstr "Mode de routage"
+
+msgid "Modification appliquée. Après un changement de routage, mettez aussi à jour le profil client."
+msgstr "Modification appliquée. Après un changement de routage, mettez aussi à jour le profil client."
 
 msgid "Modification enregistrée. Appliquez les changements au serveur. Après un changement de routage, mettez aussi à jour AllowedIPs et DNS sur le client (bouton Profil)."
 msgstr "Modification enregistrée. Appliquez les changements au serveur. Après un changement de routage, mettez aussi à jour AllowedIPs et DNS sur le client (bouton Profil)."
@@ -841,6 +865,9 @@ msgstr "Télécharger la dernière sauvegarde"
 
 msgid "Télécharger le profil .conf"
 msgstr "Télécharger le profil .conf"
+
+msgid "Téléchargez ce profil maintenant : sa clé privée ne sera plus affichée. Le client est déjà activé sur le serveur."
+msgstr "Téléchargez ce profil maintenant : sa clé privée ne sera plus affichée. Le client est déjà activé sur le serveur."
 
 msgid "Téléchargez ce profil maintenant : sa clé privée ne sera plus affichée. Ne le partagez pas. Appliquez ensuite la configuration au serveur depuis Appareils."
 msgstr "Téléchargez ce profil maintenant : sa clé privée ne sera plus affichée. Ne le partagez pas. Appliquez ensuite la configuration au serveur depuis Appareils."

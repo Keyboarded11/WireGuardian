@@ -1582,5 +1582,59 @@
     "2FA zurückgesetzt. Dieser Benutzer muss sie erneut einrichten.",
     "2FA restablecida. Este usuario deberá configurarla de nuevo.",
     "2FA reimpostata. Questo utente dovrà configurarla di nuovo."
+  ],
+  "Ce client existe déjà. Son adresse VPN est conservée.": [
+    "This client already exists. Its VPN address is unchanged.",
+    "Dieser Client existiert bereits. Seine VPN-Adresse bleibt erhalten.",
+    "Este cliente ya existe. Su dirección VPN se conserva.",
+    "Questo client esiste già. Il suo indirizzo VPN resta invariato."
+  ],
+  "La limite de clients est atteinte.": [
+    "The client limit has been reached.",
+    "Das Client-Limit wurde erreicht.",
+    "Se ha alcanzado el límite de clientes.",
+    "È stato raggiunto il limite di client."
+  ],
+  "La limite doit couvrir les clients existants.": [
+    "The limit must accommodate existing clients.",
+    "Das Limit muss bestehende Clients berücksichtigen.",
+    "El límite debe incluir los clientes existentes.",
+    "Il limite deve includere i client esistenti."
+  ],
+  "Limite de clients modifiée": [
+    "Client limit changed",
+    "Client-Limit geändert",
+    "Límite de clientes modificado",
+    "Limite client modificato"
+  ],
+  "Limite de clients (0 = illimité)": [
+    "Client limit (0 = unlimited)",
+    "Client-Limit (0 = unbegrenzt)",
+    "Límite de clientes (0 = ilimitado)",
+    "Limite client (0 = illimitato)"
+  ],
+  "Appliquer immédiatement ce changement ?": [
+    "Apply this change immediately?",
+    "Diese Änderung sofort anwenden?",
+    "¿Aplicar este cambio inmediatamente?",
+    "Applicare subito questa modifica?"
+  ],
+  "Modification appliquée. Après un changement de routage, mettez aussi à jour le profil client.": [
+    "Change applied. After changing routing, update the client profile too.",
+    "Änderung angewendet. Nach Routing-Änderungen auch das Client-Profil aktualisieren.",
+    "Cambio aplicado. Si cambia el enrutamiento, actualiza también el perfil del cliente.",
+    "Modifica applicata. Dopo un cambio di routing, aggiorna anche il profilo client."
+  ],
+  "Téléchargez ce profil maintenant : sa clé privée ne sera plus affichée. Le client est déjà activé sur le serveur.": [
+    "Download this profile now: its private key will not be shown again. The client is already active on the server.",
+    "Laden Sie dieses Profil jetzt herunter: Der private Schlüssel wird nicht erneut angezeigt. Der Client ist auf dem Server bereits aktiv.",
+    "Descarga este perfil ahora: su clave privada no volverá a mostrarse. El cliente ya está activo en el servidor.",
+    "Scarica ora questo profilo: la chiave privata non verrà mostrata di nuovo. Il client è già attivo sul server."
+  ],
+  "Gérer les appareils →": [
+    "Manage devices →",
+    "Geräte verwalten →",
+    "Gestionar dispositivos →",
+    "Gestisci dispositivi →"
   ]
 }

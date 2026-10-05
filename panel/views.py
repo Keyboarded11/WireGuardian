@@ -162,7 +162,26 @@ def peers(request):
     return render(request, 'peers.html', {'peers': queryset, 'q': query, 'config': config(), 'page': 'peers'})
 
 
+def immediate_changes(view):
+    @wraps(view)
+    def wrapped(request, *args, **kwargs):
+        try:
+            return view(request, *args, **kwargs)
+        except agent_client.AgentUnavailable as exc:
+            messages.error(request, str(exc))
+            return redirect('peers')
+    return wrapped
+
+
+def sync_clients(configuration):
+    snapshot = [{'public_key': p.public_key, 'address': p.address, 'internet': p.internet} for p in Peer.objects.filter(enabled=True)]
+    agent_client.call('sync', peers=snapshot)
+    configuration.applied_revision = configuration.revision
+    configuration.save(update_fields=['applied_revision'])
+
+
 @protected(admin=True)
+@immediate_changes
 def peer_add(request):
     form = PeerForm(request.POST or None)
     if request.method == 'POST' and form.is_valid():
@@ -182,6 +201,13 @@ def peer_add(request):
                 public = base64.b64encode(private.public_key().public_bytes(Encoding.Raw, PublicFormat.Raw)).decode()
                 with transaction.atomic():
                     configuration = Configuration.objects.select_for_update().get(pk=1)
+                    existing = Peer.objects.filter(name__iexact=form.cleaned_data['name'].strip()).first()
+                    if existing:
+                        messages.info(request, _('Ce client existe déjà. Son adresse VPN est conservée.'))
+                        return redirect('peer_profile', pk=existing.pk)
+                    if configuration.max_clients and Peer.objects.count() >= configuration.max_clients:
+                        messages.error(request, _('La limite de clients est atteinte.'))
+                        return redirect('peers')
                     used = set(Peer.objects.values_list('address', flat=True))
                     address = next((ip for ip in available_addresses() if ip not in used), None)
                     if address is None:
@@ -190,6 +216,7 @@ def peer_add(request):
                         peer = Peer.objects.create(name=form.cleaned_data['name'], public_key=public, address=address, internet=form.cleaned_data['internet'])
                         configuration.revision += 1
                         configuration.save()
+                        sync_clients(configuration)
                         audit(request, N('Appareil créé'), peer.name)
                 if address:
                     secret = base64.b64encode(private.private_bytes(Encoding.Raw, PrivateFormat.Raw, NoEncryption())).decode()
@@ -203,6 +230,7 @@ def peer_add(request):
 
 @require_POST
 @protected(admin=True)
+@immediate_changes
 def peer_action(request, pk):
     with transaction.atomic():
         configuration = Configuration.objects.select_for_update().get(pk=1)
@@ -224,7 +252,8 @@ def peer_action(request, pk):
             peer.save()
         configuration.revision += 1
         configuration.save()
-    messages.info(request, _('Modification enregistrée. Appliquez les changements au serveur. Après un changement de routage, mettez aussi à jour AllowedIPs et DNS sur le client (bouton Profil).'))
+        sync_clients(configuration)
+    messages.info(request, _('Modification appliquée. Après un changement de routage, mettez aussi à jour le profil client.'))
     return redirect('peers')
 
 
@@ -274,6 +303,26 @@ def users(request):
     for account in accounts:
         account.two_factor = account.pk in enabled
     return render(request, 'users.html', {'accounts': accounts, 'page': 'users'})
+
+
+@require_POST
+@protected(admin=True)
+def client_limit(request):
+    try:
+        limit = int(request.POST.get('max_clients', ''))
+        if not 0 <= limit <= 1021:
+            raise ValueError()
+    except ValueError:
+        return HttpResponse(_('Action invalide'), status=400)
+    with transaction.atomic():
+        c = Configuration.objects.select_for_update().get(pk=1)
+        if limit and limit < Peer.objects.count():
+            messages.error(request, _('La limite doit couvrir les clients existants.'))
+        else:
+            c.max_clients = limit
+            c.save(update_fields=['max_clients'])
+            audit(request, N('Limite de clients modifiée'), str(limit))
+    return redirect('peers')
 
 
 @protected(admin=True)

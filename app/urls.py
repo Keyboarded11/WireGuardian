@@ -13,6 +13,7 @@ urlpatterns = [
     path('appareils/ajouter/', views.peer_add, name='peer_add'),
     path('appareils/<int:pk>/', views.peer_action, name='peer_action'),
     path('appareils/<int:pk>/profil/', views.peer_profile, name='peer_profile'),
+    path('appareils/limite/', views.client_limit, name='client_limit'),
     path('appliquer/', views.apply, name='apply'),
     path('reseau/', views.network, name='network'),
     path('utilisateurs/', views.users, name='users'),

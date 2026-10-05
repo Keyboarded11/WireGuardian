@@ -155,6 +155,9 @@ msgstr "Geräte, Zugriffe und Netzwerkkonfiguration."
 msgid "Appliquer au serveur"
 msgstr "Auf Server anwenden"
 
+msgid "Appliquer immédiatement ce changement ?"
+msgstr "Diese Änderung sofort anwenden?"
+
 msgid "Appliquer les accès enregistrés ? Les appareils désactivés ou supprimés seront déconnectés."
 msgstr "Gespeicherte Zugriffsregeln anwenden? Deaktivierte oder gelöschte Geräte werden getrennt."
 
@@ -184,6 +187,9 @@ msgstr "Zwei-Faktor-Authentifizierung"
 
 msgid "Autorisé"
 msgstr "Erlaubt"
+
+msgid "Ce client existe déjà. Son adresse VPN est conservée."
+msgstr "Dieser Client existiert bereits. Seine VPN-Adresse bleibt erhalten."
 
 msgid "Ce compte ne peut pas être désactivé ici."
 msgstr "Dieses Konto kann hier nicht deaktiviert werden."
@@ -413,6 +419,9 @@ msgstr "VERWALTUNG"
 msgid "Gérer et appliquer les accès →"
 msgstr "Zugriffe verwalten und anwenden →"
 
+msgid "Gérer les appareils →"
+msgstr "Geräte verwalten →"
+
 msgid "Handshake de moins de 3 minutes"
 msgstr "Handshake vor weniger als 3 Minuten"
 
@@ -476,6 +485,12 @@ msgstr "Die gespeicherte Konfiguration unterscheidet sich von der zuletzt angewe
 msgid "La double authentification est disponible dans les paramètres du compte."
 msgstr "Zwei-Faktor-Authentifizierung ist in den Kontoeinstellungen verfügbar."
 
+msgid "La limite de clients est atteinte."
+msgstr "Das Client-Limit wurde erreicht."
+
+msgid "La limite doit couvrir les clients existants."
+msgstr "Das Limit muss bestehende Clients berücksichtigen."
+
 msgid "La phrase de sauvegarde doit contenir 14 caractères minimum et les deux saisies doivent correspondre."
 msgstr "Die Sicherungspassphrase muss mindestens 14 Zeichen enthalten und beide Eingaben müssen übereinstimmen."
 
@@ -518,6 +533,12 @@ msgstr "Einstellungen Ihrer Installation."
 msgid "Les services ne répondent pas. Inspectez /var/log/keyboarded et les services depuis la console."
 msgstr "Die Dienste antworten nicht. Prüfen Sie /var/log/keyboarded und die Dienste über die Konsole."
 
+msgid "Limite de clients (0 = illimité)"
+msgstr "Client-Limit (0 = unbegrenzt)"
+
+msgid "Limite de clients modifiée"
+msgstr "Client-Limit geändert"
+
 msgid "L’application accepte uniquement des publications signées par la clé d’éditeur configurée à l’installation. Sans source de publication configurée, la mise à jour applicative est indisponible. Aucun redémarrage automatique."
 msgstr "Die Anwendung akzeptiert nur Versionen, die mit dem bei der Installation festgelegten Herausgeberschlüssel signiert sind. Ohne konfigurierte Quelle sind App-Updates nicht verfügbar. Kein automatischer Neustart."
 
@@ -541,6 +562,9 @@ msgstr "Aktualisierungen"
 
 msgid "Mode de routage"
 msgstr "Routingmodus"
+
+msgid "Modification appliquée. Après un changement de routage, mettez aussi à jour le profil client."
+msgstr "Änderung angewendet. Nach Routing-Änderungen auch das Client-Profil aktualisieren."
 
 msgid "Modification enregistrée. Appliquez les changements au serveur. Après un changement de routage, mettez aussi à jour AllowedIPs et DNS sur le client (bouton Profil)."
 msgstr "Änderung gespeichert. Wenden Sie die Änderungen auf den Server an. Aktualisieren Sie nach einer Routingänderung auch AllowedIPs und DNS auf dem Client (Profil)."
@@ -841,6 +865,9 @@ msgstr "Letzte Sicherung herunterladen"
 
 msgid "Télécharger le profil .conf"
 msgstr ".conf-Profil herunterladen"
+
+msgid "Téléchargez ce profil maintenant : sa clé privée ne sera plus affichée. Le client est déjà activé sur le serveur."
+msgstr "Laden Sie dieses Profil jetzt herunter: Der private Schlüssel wird nicht erneut angezeigt. Der Client ist auf dem Server bereits aktiv."
 
 msgid "Téléchargez ce profil maintenant : sa clé privée ne sera plus affichée. Ne le partagez pas. Appliquez ensuite la configuration au serveur depuis Appareils."
 msgstr "Laden Sie das Profil jetzt herunter: Der private Schlüssel wird nicht erneut angezeigt. Teilen Sie ihn nicht. Wenden Sie danach die Konfiguration unter Geräte auf den Server an."

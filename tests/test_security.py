@@ -79,6 +79,31 @@ class AccessTests(TestCase):
         self.assertContains(page, f'/utilisateurs/{self.admin.pk}/options/')
         self.assertNotContains(page, 'href="/securite/"')
 
+    @patch('panel.views.agent_client.call', return_value={'ok': True, 'public_key': PUBLIC})
+    def test_create_is_immediate_and_replay_keeps_address(self, call):
+        self.authenticate()
+        self.client.post('/appareils/ajouter/', {'name':'Stable client'})
+        peer = Peer.objects.get()
+        original = (peer.pk, peer.address, peer.public_key)
+        self.assertEqual(Configuration.objects.get(pk=1).revision, Configuration.objects.get(pk=1).applied_revision)
+        self.assertTrue(any(c.args[0] == 'sync' for c in call.call_args_list))
+        self.client.post('/appareils/ajouter/', {'name':'Stable client'})
+        self.assertEqual(Peer.objects.count(), 1)
+        peer.refresh_from_db()
+        self.assertEqual((peer.pk,peer.address,peer.public_key),original)
+
+    @patch('panel.views.agent_client.call', return_value={'ok': True, 'public_key': PUBLIC})
+    def test_limit_and_failed_sync_leave_no_new_client(self, call):
+        self.authenticate()
+        self.client.post('/appareils/limite/', {'max_clients':1})
+        self.client.post('/appareils/ajouter/', {'name':'First'})
+        self.client.post('/appareils/ajouter/', {'name':'Second'})
+        self.assertEqual(Peer.objects.count(),1)
+        call.side_effect = AgentUnavailable('offline')
+        peer = Peer.objects.get()
+        self.client.post(f'/appareils/{peer.pk}/', {'action':'delete'})
+        self.assertTrue(Peer.objects.filter(pk=peer.pk).exists())
+
     def test_anonymous_cannot_read_dashboard_or_profiles(self):
         for url in ['/', '/appareils/', '/maintenance/', '/reseau/', '/journal/']:
             self.assertRedirects(self.client.get(url), '/connexion/', fetch_redirect_response=False)

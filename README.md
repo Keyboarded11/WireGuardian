@@ -120,7 +120,7 @@ Port forwarding must be configured on your router. If your provider uses CGNAT, 
 1. Open **Network** and check the public endpoint and LAN networks.
 2. Open **Devices**, add a device and choose its routing mode.
 3. Download the configuration file immediately. Client private keys are not stored on the server.
-4. Apply the changes to the server.
+4. The device is activated on the server as soon as it is created.
 5. Install the [WireGuard client](https://www.wireguard.com/install/) on the device and import the configuration.
 6. Connect from an external network, such as mobile data, and check that you can reach a LAN device.
 
@@ -130,7 +130,7 @@ Port forwarding must be configured on your router. If your provider uses CGNAT, 
 
 **Full tunnel:** IPv4 Internet traffic goes through the VPN server. Configure a reachable DNS server before creating a full-tunnel profile. IPv6 traffic is routed into the tunnel and blocked; native IPv6 forwarding is not supported.
 
-After changing a device's routing mode, apply the server configuration and update the client profile as well. WireGuard does not push route changes to clients.
+Device changes are applied to the server immediately. After changing a device's routing mode, update the client profile as well. WireGuard does not push route changes to clients.
 
 Use a separate profile for each device. If a private key is lost, replace the profile. Avoid overlapping networks between the client's local network and the remote LAN.
 
@@ -149,6 +149,12 @@ ip -br address
 systemctl is-active keyboarded-agent keyboarded-web nginx nftables
 wg show wg0
 ```
+
+## Client limits
+
+Administrators can set a maximum number of device profiles from **Devices**. Set it to `0` for no configured limit (the VPN address pool still limits capacity). Disabled profiles count toward the limit because their addresses remain reserved.
+
+Each profile keeps its VPN address across reconnections. Reusing an existing device name opens its existing profile instead of creating another device.
 
 ## Backups
 

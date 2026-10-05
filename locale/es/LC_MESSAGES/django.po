@@ -155,6 +155,9 @@ msgstr "Dispositivos, accesos y configuración de red."
 msgid "Appliquer au serveur"
 msgstr "Aplicar al servidor"
 
+msgid "Appliquer immédiatement ce changement ?"
+msgstr "¿Aplicar este cambio inmediatamente?"
+
 msgid "Appliquer les accès enregistrés ? Les appareils désactivés ou supprimés seront déconnectés."
 msgstr "¿Aplicar los accesos guardados? Se desconectarán los dispositivos desactivados o eliminados."
 
@@ -184,6 +187,9 @@ msgstr "Autenticación de dos factores"
 
 msgid "Autorisé"
 msgstr "Permitido"
+
+msgid "Ce client existe déjà. Son adresse VPN est conservée."
+msgstr "Este cliente ya existe. Su dirección VPN se conserva."
 
 msgid "Ce compte ne peut pas être désactivé ici."
 msgstr "Esta cuenta no se puede desactivar aquí."
@@ -413,6 +419,9 @@ msgstr "GESTIÓN"
 msgid "Gérer et appliquer les accès →"
 msgstr "Gestionar y aplicar accesos →"
 
+msgid "Gérer les appareils →"
+msgstr "Gestionar dispositivos →"
+
 msgid "Handshake de moins de 3 minutes"
 msgstr "Handshake en los últimos 3 minutos"
 
@@ -476,6 +485,12 @@ msgstr "La configuración guardada difiere de la última versión aplicada."
 msgid "La double authentification est disponible dans les paramètres du compte."
 msgstr "La autenticación de dos factores está disponible en los ajustes de la cuenta."
 
+msgid "La limite de clients est atteinte."
+msgstr "Se ha alcanzado el límite de clientes."
+
+msgid "La limite doit couvrir les clients existants."
+msgstr "El límite debe incluir los clientes existentes."
+
 msgid "La phrase de sauvegarde doit contenir 14 caractères minimum et les deux saisies doivent correspondre."
 msgstr "La frase de la copia debe contener al menos 14 caracteres y ambas entradas deben coincidir."
 
@@ -518,6 +533,12 @@ msgstr "Ajustes de su instalación."
 msgid "Les services ne répondent pas. Inspectez /var/log/keyboarded et les services depuis la console."
 msgstr "Los servicios no responden. Revise /var/log/keyboarded y los servicios desde la consola."
 
+msgid "Limite de clients (0 = illimité)"
+msgstr "Límite de clientes (0 = ilimitado)"
+
+msgid "Limite de clients modifiée"
+msgstr "Límite de clientes modificado"
+
 msgid "L’application accepte uniquement des publications signées par la clé d’éditeur configurée à l’installation. Sans source de publication configurée, la mise à jour applicative est indisponible. Aucun redémarrage automatique."
 msgstr "La aplicación solo acepta versiones firmadas con la clave del editor configurada durante la instalación. Sin una fuente configurada no hay actualizaciones de la aplicación. No se reinicia automáticamente."
 
@@ -541,6 +562,9 @@ msgstr "Actualizaciones"
 
 msgid "Mode de routage"
 msgstr "Modo de enrutamiento"
+
+msgid "Modification appliquée. Après un changement de routage, mettez aussi à jour le profil client."
+msgstr "Cambio aplicado. Si cambia el enrutamiento, actualiza también el perfil del cliente."
 
 msgid "Modification enregistrée. Appliquez les changements au serveur. Après un changement de routage, mettez aussi à jour AllowedIPs et DNS sur le client (bouton Profil)."
 msgstr "Cambio guardado. Aplíquelo al servidor. Tras un cambio de enrutamiento, actualice también AllowedIPs y DNS en el cliente (botón Perfil)."
@@ -841,6 +865,9 @@ msgstr "Descargar última copia"
 
 msgid "Télécharger le profil .conf"
 msgstr "Descargar perfil .conf"
+
+msgid "Téléchargez ce profil maintenant : sa clé privée ne sera plus affichée. Le client est déjà activé sur le serveur."
+msgstr "Descarga este perfil ahora: su clave privada no volverá a mostrarse. El cliente ya está activo en el servidor."
 
 msgid "Téléchargez ce profil maintenant : sa clé privée ne sera plus affichée. Ne le partagez pas. Appliquez ensuite la configuration au serveur depuis Appareils."
 msgstr "Descargue el perfil ahora: su clave privada no volverá a mostrarse. No lo comparta. Después aplique la configuración al servidor desde Dispositivos."

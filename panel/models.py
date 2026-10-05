@@ -12,6 +12,7 @@ class Peer(models.Model):
 
 
 class Configuration(models.Model):
+    max_clients = models.PositiveIntegerField(default=0)
     endpoint = models.CharField(max_length=253, blank=True)
     revision = models.PositiveIntegerField(default=0)
     applied_revision = models.PositiveIntegerField(default=0)
